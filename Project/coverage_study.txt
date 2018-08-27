@@ -1,0 +1,20 @@
+Coverage study
+
+After training the model, we reached an accuracy of 93.5% on the test set. To get closer from the 98% accuracy goal (human performance), one solution is to discard before the evaluation some data from the set : the ones that are the least probable of being well interpreted by the model. In theory, it would reduce the set size and keep the correct prediction number constant, leading to an accuracy increase.
+
+In order to do that, we need to consider closely the image score matrix. At the end of the training, each image is allocated an image score matrix of shape (11,5). At position (i,j), there is the score of the j-th figure to be an i (10 being the absence of figure). We should also recall that they are five positions because that is the maximum length allowed by the model. Thanks to softmax function, we can turn the scores obtained by each figures at each position into a probability. 
+
+For instance, if for a particular image, at position number one, the scores were : [-1.3, 2.0, 0.8, -1.1, 0.9, 2.2, 2.4,-0.8, -1.5, -0.9,  -3.9], we obtain : [8.1e-03, 2.2e-01, 6.7e-02, 9.5e-03, 7.4e-02, 2.7e-01, 3.2e-01, 1.3e-02, 6.3e-03, 1.1e-02, 6.1e-04], which is a vector of sum 1. Then we consider only the highest probability in it, because that¡¯s the figure our model will choose. We take the mean of highest probabilities for the five positions to obtain the probability of the whole number. It appears that the least probable of being well interpreted are assigned small probabilities thanks to this metric. Choosing an adequate metric is crucial, it would be a pity to discard too many potential good results. Other metrics are worth of being considered, such as taking the minimum probability among the five positions, but we decided to focus on the mean, because of the results it provided.
+
+In order to determine the minimum probability an image should have to make it into the final set, we evaluated our model for several values of it : [0.8, 0.85, 0.9, 0.925, 0.95, 0.975]. We computed the resulting accuracy and the resulting coverage size for the training set, the validation set and the test set. Here are the results :
+
+[Insert the plots and put title : the first one I sent you is the accuracy plot, the second one is the coverage plot, the third one is the test plot]
+
+Let¡¯s recall that with full sets, our model has an accuracy of 0.964% on training set, 0.96% on validation set and 0.93% on test set. The final objective is to get 98% accuracy on those sets (red line in the accuracy plot), especially on the test set. Let¡¯s not forget the coverage size they were able to reach in the paper : 95.64% (red line in the coverage plot).
+
+We can see in the accuracy plot that increasing the minimum probability required increases the accuracy. At first (minimum probability = 0.8), there is a sizable gap between the test set accuracy and the other sets, but thanks to more selective coverage, the test curve is able to catch up. We were able to reach 98% of accuracy on the test set while keeping 91,5% of the images, with a minimum probability of 0.95. 
+
+On the coverage plot, we can observe that the test set is the less sensitive to high minimum probability, which is a good sign for the overall strength of our model.
+On the test plot, we can observe the trade-off between the coverage size of the test set and its accuracy. It indicates that over 0.95, the trade-off is clearly unfavorable for the coverage size. It also tells us that our ideal value lies somewhere between 0.925 and 0.95.
+
+By defining a simple metric, we were able to improve our accuracy to a human level without discarding more than 8.5% of the images.

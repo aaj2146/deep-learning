@@ -1,0 +1,1338 @@
+Start training
+=> 2017-12-09 06:28:56.042733: step 100, loss = 7.381904 (8.3 examples/sec)
+=> 2017-12-09 06:35:29.298714: step 200, loss = 7.524667 (8.1 examples/sec)
+=> 2017-12-09 06:41:58.749386: step 300, loss = 8.084579 (8.2 examples/sec)
+=> 2017-12-09 06:48:35.011196: step 400, loss = 7.398997 (8.1 examples/sec)
+=> 2017-12-09 06:55:15.066955: step 500, loss = 7.013062 (8.0 examples/sec)
+=> 2017-12-09 07:01:46.970593: step 600, loss = 7.188196 (8.2 examples/sec)
+=> 2017-12-09 07:07:53.611226: step 700, loss = 7.198033 (8.7 examples/sec)
+=> 2017-12-09 07:13:57.834486: step 800, loss = 7.946131 (8.8 examples/sec)
+=> 2017-12-09 07:19:41.677407: step 900, loss = 7.275897 (9.3 examples/sec)
+=> 2017-12-09 07:25:22.745314: step 1000, loss = 7.025218 (9.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.011846, best accuracy 0.000000
+=> Model saved to file: ./logs/train/model.ckpt-1000
+=> patience = 100
+=> 2017-12-09 07:45:22.180057: step 1100, loss = 6.856065 (9.6 examples/sec)
+=> 2017-12-09 07:50:54.049110: step 1200, loss = 6.531644 (9.6 examples/sec)
+=> 2017-12-09 07:56:28.887269: step 1300, loss = 5.878032 (9.6 examples/sec)
+=> 2017-12-09 08:02:00.607551: step 1400, loss = 6.286674 (9.6 examples/sec)
+=> 2017-12-09 08:07:33.429081: step 1500, loss = 6.764132 (9.6 examples/sec)
+=> 2017-12-09 08:13:05.237269: step 1600, loss = 6.013209 (9.6 examples/sec)
+=> 2017-12-09 08:18:38.475244: step 1700, loss = 5.670716 (9.6 examples/sec)
+=> 2017-12-09 08:24:10.150222: step 1800, loss = 6.439866 (9.6 examples/sec)
+=> 2017-12-09 08:29:41.676349: step 1900, loss = 5.941986 (9.7 examples/sec)
+=> 2017-12-09 08:35:16.316836: step 2000, loss = 4.829533 (9.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.081055, best accuracy 0.011846
+=> Model saved to file: ./logs/train/model.ckpt-2000
+=> patience = 100
+=> 2017-12-09 08:57:29.472880: step 2100, loss = 5.908273 (8.5 examples/sec)
+=> 2017-12-09 09:03:46.817902: step 2200, loss = 4.875430 (8.5 examples/sec)
+=> 2017-12-09 09:10:04.376424: step 2300, loss = 4.348811 (8.5 examples/sec)
+=> 2017-12-09 09:16:20.827670: step 2400, loss = 3.769413 (8.5 examples/sec)
+=> 2017-12-09 09:22:38.644747: step 2500, loss = 3.857816 (8.5 examples/sec)
+=> 2017-12-09 09:28:11.737811: step 2600, loss = 4.229519 (9.6 examples/sec)
+=> 2017-12-09 09:33:43.384196: step 2700, loss = 2.599820 (9.6 examples/sec)
+=> 2017-12-09 09:39:14.859794: step 2800, loss = 5.317952 (9.7 examples/sec)
+=> 2017-12-09 09:45:00.820973: step 2900, loss = 3.256748 (9.2 examples/sec)
+=> 2017-12-09 09:50:51.957231: step 3000, loss = 2.967747 (9.1 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.324389, best accuracy 0.081055
+=> Model saved to file: ./logs/train/model.ckpt-3000
+=> patience = 100
+=> 2017-12-09 10:13:03.245843: step 3100, loss = 3.730277 (9.1 examples/sec)
+=> 2017-12-09 10:18:47.659797: step 3200, loss = 2.948156 (9.3 examples/sec)
+=> 2017-12-09 10:24:30.853183: step 3300, loss = 3.100370 (9.3 examples/sec)
+=> 2017-12-09 10:30:13.804346: step 3400, loss = 2.266318 (9.3 examples/sec)
+=> 2017-12-09 10:35:56.614594: step 3500, loss = 2.805592 (9.3 examples/sec)
+=> 2017-12-09 10:41:39.864507: step 3600, loss = 3.306097 (9.3 examples/sec)
+=> 2017-12-09 10:47:23.158635: step 3700, loss = 2.832256 (9.3 examples/sec)
+=> 2017-12-09 10:53:06.269294: step 3800, loss = 3.330977 (9.3 examples/sec)
+=> 2017-12-09 10:59:11.303276: step 3900, loss = 2.169377 (8.8 examples/sec)
+=> 2017-12-09 11:05:34.068733: step 4000, loss = 1.660013 (8.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.611923, best accuracy 0.324389
+=> Model saved to file: ./logs/train/model.ckpt-4000
+=> patience = 100
+=> 2017-12-09 11:25:32.857653: step 4100, loss = 2.007832 (8.8 examples/sec)
+=> 2017-12-09 11:31:35.663583: step 4200, loss = 2.002820 (8.8 examples/sec)
+=> 2017-12-09 11:38:19.372560: step 4300, loss = 1.578426 (7.9 examples/sec)
+=> 2017-12-09 11:44:58.684794: step 4400, loss = 1.842720 (8.0 examples/sec)
+=> 2017-12-09 11:51:45.628795: step 4500, loss = 1.730374 (7.9 examples/sec)
+=> 2017-12-09 11:58:27.378986: step 4600, loss = 1.894041 (8.0 examples/sec)
+=> 2017-12-09 12:04:58.271327: step 4700, loss = 0.823097 (8.2 examples/sec)
+=> 2017-12-09 12:11:15.004457: step 4800, loss = 1.408468 (8.5 examples/sec)
+=> 2017-12-09 12:17:35.902944: step 4900, loss = 1.923377 (8.4 examples/sec)
+=> 2017-12-09 12:23:39.291145: step 5000, loss = 2.129484 (8.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.735988, best accuracy 0.611923
+=> Model saved to file: ./logs/train/model.ckpt-5000
+=> patience = 100
+=> 2017-12-09 18:40:01.916784: step 5100, loss = 1.656549 (6.9 examples/sec)
+=> 2017-12-09 18:47:00.121988: step 5200, loss = 1.315081 (7.7 examples/sec)
+=> 2017-12-09 18:53:45.666571: step 5300, loss = 1.478293 (7.9 examples/sec)
+=> 2017-12-09 19:00:03.000991: step 5400, loss = 1.837609 (8.5 examples/sec)
+=> 2017-12-09 19:07:08.310085: step 5500, loss = 1.599036 (7.5 examples/sec)
+=> 2017-12-09 19:13:35.752235: step 5600, loss = 1.216601 (8.3 examples/sec)
+=> 2017-12-09 19:19:58.137794: step 5700, loss = 0.983700 (8.4 examples/sec)
+=> 2017-12-09 19:26:19.927817: step 5800, loss = 1.194391 (8.4 examples/sec)
+=> 2017-12-09 19:33:18.413441: step 5900, loss = 0.809850 (7.6 examples/sec)
+=> 2017-12-09 19:41:32.877346: step 6000, loss = 0.796330 (6.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.798701, best accuracy 0.735988
+=> Model saved to file: ./logs/train/model.ckpt-6000
+=> patience = 100
+=> 2017-12-09 20:03:36.837703: step 6100, loss = 1.991938 (8.8 examples/sec)
+=> 2017-12-09 20:09:08.158539: step 6200, loss = 1.355591 (9.7 examples/sec)
+=> 2017-12-09 20:15:19.876429: step 6300, loss = 1.461839 (8.6 examples/sec)
+=> 2017-12-09 20:21:21.958432: step 6400, loss = 1.155975 (8.8 examples/sec)
+=> 2017-12-09 20:28:33.087147: step 6500, loss = 0.952748 (7.4 examples/sec)
+=> 2017-12-09 20:35:03.360099: step 6600, loss = 1.342792 (8.2 examples/sec)
+=> 2017-12-09 20:40:51.446106: step 6700, loss = 0.875804 (9.2 examples/sec)
+=> 2017-12-09 20:46:45.457165: step 6800, loss = 1.116122 (9.0 examples/sec)
+=> 2017-12-09 20:53:10.846172: step 6900, loss = 1.448302 (8.3 examples/sec)
+=> 2017-12-09 20:59:07.524936: step 7000, loss = 0.571246 (9.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.826979, best accuracy 0.798701
+=> Model saved to file: ./logs/train/model.ckpt-7000
+=> patience = 100
+=> 2017-12-09 21:18:34.443504: step 7100, loss = 1.132190 (8.8 examples/sec)
+=> 2017-12-09 21:24:38.460092: step 7200, loss = 0.847593 (8.8 examples/sec)
+=> 2017-12-09 21:30:42.890702: step 7300, loss = 0.520409 (8.8 examples/sec)
+=> 2017-12-09 21:36:46.351805: step 7400, loss = 0.574783 (8.8 examples/sec)
+=> 2017-12-09 21:42:49.001958: step 7500, loss = 0.617819 (8.8 examples/sec)
+=> 2017-12-09 21:48:51.656863: step 7600, loss = 0.888100 (8.8 examples/sec)
+=> 2017-12-09 21:54:53.436767: step 7700, loss = 0.677434 (8.8 examples/sec)
+=> 2017-12-09 22:00:56.863897: step 7800, loss = 0.859430 (8.8 examples/sec)
+=> 2017-12-09 22:06:59.170321: step 7900, loss = 0.856000 (8.8 examples/sec)
+=> 2017-12-09 22:13:01.851292: step 8000, loss = 1.407562 (8.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.837466, best accuracy 0.826979
+=> Model saved to file: ./logs/train/model.ckpt-8000
+=> patience = 100
+=> 2017-12-09 22:34:45.685671: step 8100, loss = 0.736187 (8.8 examples/sec)
+=> 2017-12-09 22:40:48.464402: step 8200, loss = 0.852805 (8.8 examples/sec)
+=> 2017-12-09 22:46:51.286478: step 8300, loss = 0.766433 (8.8 examples/sec)
+=> 2017-12-09 22:52:53.795902: step 8400, loss = 0.388507 (8.8 examples/sec)
+=> 2017-12-09 22:58:56.669805: step 8500, loss = 0.548054 (8.8 examples/sec)
+=> 2017-12-09 23:05:00.341128: step 8600, loss = 0.441039 (8.8 examples/sec)
+=> 2017-12-09 23:11:03.233949: step 8700, loss = 0.926646 (8.8 examples/sec)
+=> 2017-12-09 23:17:08.521654: step 8800, loss = 0.802161 (8.8 examples/sec)
+=> 2017-12-09 23:23:10.541351: step 8900, loss = 1.155543 (8.8 examples/sec)
+=> 2017-12-09 23:29:41.814541: step 9000, loss = 0.470268 (8.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.856148, best accuracy 0.837466
+=> Model saved to file: ./logs/train/model.ckpt-9000
+=> patience = 100
+=> 2017-12-09 23:53:03.277141: step 9100, loss = 0.371119 (6.3 examples/sec)
+=> 2017-12-09 23:59:30.382194: step 9200, loss = 0.985772 (8.3 examples/sec)
+=> 2017-12-10 00:06:20.997944: step 9300, loss = 0.289091 (7.8 examples/sec)
+=> 2017-12-10 00:13:12.760504: step 9400, loss = 0.206844 (7.8 examples/sec)
+=> 2017-12-10 00:20:08.442363: step 9500, loss = 0.419037 (7.7 examples/sec)
+=> 2017-12-10 00:27:05.150590: step 9600, loss = 0.818961 (7.7 examples/sec)
+=> 2017-12-10 00:33:17.569275: step 9700, loss = 0.605159 (8.6 examples/sec)
+=> 2017-12-10 00:39:25.085001: step 9800, loss = 0.430359 (8.7 examples/sec)
+=> 2017-12-10 00:48:13.908624: step 9900, loss = 1.262894 (6.1 examples/sec)
+=> 2017-12-10 02:56:11.777350: step 10000, loss = 0.601613 (0.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.862559, best accuracy 0.856148
+=> Model saved to file: ./logs/train/model.ckpt-10000
+=> patience = 100
+=> 2017-12-10 03:17:27.700550: step 10100, loss = 0.193928 (8.3 examples/sec)
+=> 2017-12-10 03:24:15.011991: step 10200, loss = 0.382079 (7.9 examples/sec)
+=> 2017-12-10 03:31:04.240026: step 10300, loss = 2.608905 (7.8 examples/sec)
+=> 2017-12-10 03:38:21.106846: step 10400, loss = 0.341974 (7.3 examples/sec)
+=> 2017-12-10 15:35:45.497715: step 10500, loss = 0.772733 (0.1 examples/sec)
+=> 2017-12-10 15:41:59.427516: step 10600, loss = 0.287504 (8.6 examples/sec)
+=> 2017-12-10 15:49:38.791062: step 10700, loss = 0.169407 (7.0 examples/sec)
+=> 2017-12-10 15:58:32.726523: step 10800, loss = 0.259637 (6.0 examples/sec)
+=> 2017-12-10 16:06:22.484856: step 10900, loss = 0.568612 (6.8 examples/sec)
+=> 2017-12-10 16:14:25.902565: step 11000, loss = 0.795232 (6.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.857167, best accuracy 0.862559
+=> patience = 99
+=> 2017-12-10 17:09:23.140418: step 11100, loss = 0.639544 (1.6 examples/sec)
+=> 2017-12-10 17:15:25.693349: step 11200, loss = 0.653240 (8.8 examples/sec)
+=> 2017-12-10 17:21:21.623503: step 11300, loss = 1.664127 (9.0 examples/sec)
+=> 2017-12-10 17:27:21.062343: step 11400, loss = 0.331936 (8.9 examples/sec)
+=> 2017-12-10 17:33:11.015470: step 11500, loss = 0.458849 (9.1 examples/sec)
+=> 2017-12-10 17:39:01.645104: step 11600, loss = 0.298789 (9.1 examples/sec)
+=> 2017-12-10 17:44:47.332597: step 11700, loss = 0.420382 (9.3 examples/sec)
+=> 2017-12-10 17:50:31.778182: step 11800, loss = 1.258903 (9.3 examples/sec)
+=> 2017-12-10 17:56:12.276304: step 11900, loss = 0.381604 (9.4 examples/sec)
+=> 2017-12-10 18:02:15.109322: step 12000, loss = 0.233624 (8.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.886761, best accuracy 0.862559
+=> Model saved to file: ./logs/train/model.ckpt-12000
+=> patience = 100
+=> 2017-12-10 18:23:42.978204: step 12100, loss = 1.544127 (9.2 examples/sec)
+=> 2017-12-10 18:29:39.878098: step 12200, loss = 0.628121 (9.0 examples/sec)
+=> 2017-12-10 18:35:59.999361: step 12300, loss = 0.560841 (8.4 examples/sec)
+=> 2017-12-10 18:42:19.151289: step 12400, loss = 0.813099 (8.4 examples/sec)
+=> 2017-12-10 18:48:30.751372: step 12500, loss = 0.963008 (8.6 examples/sec)
+=> 2017-12-10 18:54:28.206016: step 12600, loss = 0.479695 (9.0 examples/sec)
+=> 2017-12-10 19:00:28.806211: step 12700, loss = 0.299103 (8.9 examples/sec)
+=> 2017-12-10 19:06:47.537987: step 12800, loss = 1.310667 (8.4 examples/sec)
+=> 2017-12-10 19:12:36.645596: step 12900, loss = 0.467786 (9.2 examples/sec)
+=> 2017-12-10 19:19:04.386770: step 13000, loss = 1.011723 (8.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.894192, best accuracy 0.886761
+=> Model saved to file: ./logs/train/model.ckpt-13000
+=> patience = 100
+=> 2017-12-10 19:41:50.823272: step 13100, loss = 0.305642 (8.4 examples/sec)
+=> 2017-12-10 19:48:02.706242: step 13200, loss = 0.695031 (8.6 examples/sec)
+=> 2017-12-10 19:54:00.732434: step 13300, loss = 0.113758 (8.9 examples/sec)
+=> 2017-12-10 20:00:20.913675: step 13400, loss = 0.346877 (8.4 examples/sec)
+=> 2017-12-10 20:06:32.986580: step 13500, loss = 1.082697 (8.6 examples/sec)
+=> 2017-12-10 20:12:32.351315: step 13600, loss = 0.107290 (8.9 examples/sec)
+=> 2017-12-10 20:18:19.458474: step 13700, loss = 0.873057 (9.2 examples/sec)
+=> 2017-12-10 20:23:59.722417: step 13800, loss = 0.233941 (9.4 examples/sec)
+=> 2017-12-10 20:29:38.672309: step 13900, loss = 0.556221 (9.4 examples/sec)
+=> 2017-12-10 20:35:33.772829: step 14000, loss = 0.697125 (9.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.888460, best accuracy 0.894192
+=> patience = 99
+=> 2017-12-10 22:53:09.522007: step 14100, loss = 0.264113 (6.6 examples/sec)
+=> 2017-12-10 23:00:08.210638: step 14200, loss = 0.366756 (7.6 examples/sec)
+=> 2017-12-10 23:07:14.699842: step 14300, loss = 0.625837 (7.5 examples/sec)
+=> 2017-12-10 23:14:10.927734: step 14400, loss = 0.346569 (7.7 examples/sec)
+=> 2017-12-10 23:20:31.762040: step 14500, loss = 0.970012 (8.4 examples/sec)
+=> 2017-12-10 23:26:57.434500: step 14600, loss = 0.940834 (8.3 examples/sec)
+=> 2017-12-10 23:32:59.167998: step 14700, loss = 0.506317 (8.8 examples/sec)
+=> 2017-12-10 23:39:55.869507: step 14800, loss = 0.527640 (7.7 examples/sec)
+=> 2017-12-10 23:46:48.507612: step 14900, loss = 0.241554 (7.8 examples/sec)
+=> 2017-12-10 23:53:00.943162: step 15000, loss = 0.278915 (8.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.904169, best accuracy 0.894192
+=> Model saved to file: ./logs/train/model.ckpt-15000
+=> patience = 100
+=> 2017-12-11 00:40:50.080182: step 15100, loss = 0.439352 (5.3 examples/sec)
+=> 2017-12-11 00:48:38.618157: step 15200, loss = 0.280371 (6.8 examples/sec)
+=> 2017-12-11 00:56:23.300934: step 15300, loss = 0.255606 (6.9 examples/sec)
+=> 2017-12-11 01:03:15.176436: step 15400, loss = 0.500655 (7.8 examples/sec)
+=> 2017-12-11 01:10:16.985240: step 15500, loss = 1.380899 (7.6 examples/sec)
+=> 2017-12-11 01:17:16.796295: step 15600, loss = 0.434916 (7.6 examples/sec)
+=> 2017-12-11 01:23:15.722357: step 15700, loss = 0.238470 (8.9 examples/sec)
+=> 2017-12-11 01:29:36.999360: step 15800, loss = 0.407817 (8.4 examples/sec)
+=> 2017-12-11 01:36:41.621542: step 15900, loss = 0.139159 (7.5 examples/sec)
+=> 2017-12-11 01:44:01.384236: step 16000, loss = 0.543809 (7.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.904764, best accuracy 0.904169
+=> Model saved to file: ./logs/train/model.ckpt-16000
+=> patience = 100
+=> 2017-12-11 02:46:43.216066: step 16100, loss = 0.818614 (8.0 examples/sec)
+=> 2017-12-11 02:52:48.611444: step 16200, loss = 0.323846 (8.8 examples/sec)
+=> 2017-12-11 02:59:02.150375: step 16300, loss = 0.486705 (8.6 examples/sec)
+=> 2017-12-11 03:05:19.050849: step 16400, loss = 0.184271 (8.5 examples/sec)
+=> 2017-12-11 03:11:45.995716: step 16500, loss = 0.603281 (8.3 examples/sec)
+=> 2017-12-11 10:53:30.297018: step 16600, loss = 0.405718 (0.1 examples/sec)
+=> 2017-12-11 10:59:45.179149: step 16700, loss = 0.280512 (8.5 examples/sec)
+=> 2017-12-11 11:05:33.256473: step 16800, loss = 0.364005 (9.2 examples/sec)
+=> 2017-12-11 11:11:09.109382: step 16900, loss = 0.314393 (9.5 examples/sec)
+=> 2017-12-11 11:16:43.709110: step 17000, loss = 0.104040 (9.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.902514, best accuracy 0.904764
+=> patience = 99
+=> 2017-12-11 11:39:48.463826: step 17100, loss = 0.612377 (7.3 examples/sec)
+=> 2017-12-11 11:47:02.272867: step 17200, loss = 1.262274 (7.4 examples/sec)
+=> 2017-12-11 11:54:22.949239: step 17300, loss = 0.182264 (7.3 examples/sec)
+=> 2017-12-11 12:00:28.849231: step 17400, loss = 0.167305 (8.7 examples/sec)
+=> 2017-12-11 12:06:40.784885: step 17500, loss = 0.288538 (8.6 examples/sec)
+=> 2017-12-11 12:13:01.706469: step 17600, loss = 0.637983 (8.4 examples/sec)
+=> 2017-12-11 12:18:58.633463: step 17700, loss = 0.304132 (9.0 examples/sec)
+=> 2017-12-11 12:25:45.447477: step 17800, loss = 0.233366 (7.9 examples/sec)
+=> 2017-12-11 12:32:38.070153: step 17900, loss = 0.221861 (7.8 examples/sec)
+=> 2017-12-11 12:39:18.122611: step 18000, loss = 0.398845 (8.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.909052, best accuracy 0.904764
+=> Model saved to file: ./logs/train/model.ckpt-18000
+=> patience = 100
+=> 2017-12-11 13:04:25.627569: step 18100, loss = 0.719439 (7.7 examples/sec)
+=> 2017-12-11 13:11:09.601920: step 18200, loss = 0.703053 (7.9 examples/sec)
+=> 2017-12-11 13:18:00.714605: step 18300, loss = 0.295983 (7.8 examples/sec)
+=> 2017-12-11 13:29:32.537278: step 18400, loss = 0.151799 (4.6 examples/sec)
+=> 2017-12-11 14:22:21.226116: step 18500, loss = 0.597068 (1.0 examples/sec)
+=> 2017-12-11 14:28:17.340035: step 18600, loss = 0.217983 (9.0 examples/sec)
+=> 2017-12-11 14:34:03.663370: step 18700, loss = 0.643855 (9.2 examples/sec)
+=> 2017-12-11 15:05:25.147975: step 18800, loss = 0.350962 (1.7 examples/sec)
+=> 2017-12-11 15:11:13.468210: step 18900, loss = 0.691893 (9.2 examples/sec)
+=> 2017-12-11 15:17:12.088741: step 19000, loss = 0.218660 (8.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.914614, best accuracy 0.909052
+=> Model saved to file: ./logs/train/model.ckpt-19000
+=> patience = 100
+=> 2017-12-11 15:49:26.724353: step 19100, loss = 0.955554 (3.2 examples/sec)
+=> 2017-12-11 15:55:53.540242: step 19200, loss = 0.250679 (8.3 examples/sec)
+=> 2017-12-11 16:02:03.337837: step 19300, loss = 0.314920 (8.7 examples/sec)
+=> 2017-12-11 16:16:55.629266: step 19400, loss = 0.114214 (3.6 examples/sec)
+=> 2017-12-11 16:22:56.422394: step 19500, loss = 0.697843 (8.9 examples/sec)
+=> 2017-12-11 16:28:44.493077: step 19600, loss = 0.355755 (9.2 examples/sec)
+=> 2017-12-11 16:34:35.238669: step 19700, loss = 0.387386 (9.1 examples/sec)
+=> 2017-12-11 16:40:21.452708: step 19800, loss = 0.262113 (9.2 examples/sec)
+=> 2017-12-11 16:46:12.468105: step 19900, loss = 0.357245 (9.1 examples/sec)
+=> 2017-12-11 16:51:50.397348: step 20000, loss = 1.072145 (9.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.914530, best accuracy 0.914614
+=> patience = 99
+=> 2017-12-11 17:11:57.718511: step 20100, loss = 0.245493 (9.4 examples/sec)
+=> 2017-12-11 17:17:48.695245: step 20200, loss = 0.117213 (9.1 examples/sec)
+=> 2017-12-11 17:23:23.135300: step 20300, loss = 0.245098 (9.6 examples/sec)
+=> 2017-12-11 17:29:18.247732: step 20400, loss = 1.089862 (9.0 examples/sec)
+=> 2017-12-11 17:35:02.566166: step 20500, loss = 0.334073 (9.3 examples/sec)
+=> 2017-12-11 17:40:42.545555: step 20600, loss = 0.238807 (9.4 examples/sec)
+=> 2017-12-11 17:46:20.665266: step 20700, loss = 0.511035 (9.5 examples/sec)
+=> 2017-12-11 17:52:16.864159: step 20800, loss = 0.222740 (9.0 examples/sec)
+=> 2017-12-11 17:58:25.130118: step 20900, loss = 0.805346 (8.7 examples/sec)
+=> 2017-12-11 18:23:05.804891: step 21000, loss = 0.198518 (2.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.917799, best accuracy 0.914614
+=> Model saved to file: ./logs/train/model.ckpt-21000
+=> patience = 100
+=> 2017-12-11 18:44:02.939396: step 21100, loss = 0.473918 (9.6 examples/sec)
+=> 2017-12-11 18:49:35.035354: step 21200, loss = 1.889850 (9.6 examples/sec)
+=> 2017-12-11 18:55:07.208064: step 21300, loss = 0.518081 (9.6 examples/sec)
+=> 2017-12-11 19:00:38.794084: step 21400, loss = 0.100001 (9.7 examples/sec)
+=> 2017-12-11 19:06:09.999987: step 21500, loss = 0.411159 (9.7 examples/sec)
+=> 2017-12-11 19:11:41.921964: step 21600, loss = 0.302864 (9.6 examples/sec)
+=> 2017-12-11 19:17:13.575511: step 21700, loss = 1.785011 (9.6 examples/sec)
+=> 2017-12-11 19:22:45.003447: step 21800, loss = 0.182881 (9.7 examples/sec)
+=> 2017-12-11 19:28:16.064191: step 21900, loss = 0.118599 (9.7 examples/sec)
+=> 2017-12-11 19:33:47.524540: step 22000, loss = 0.864326 (9.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.916610, best accuracy 0.917799
+=> patience = 99
+=> 2017-12-12 00:48:19.568245: step 22100, loss = 0.298711 (0.2 examples/sec)
+=> 2017-12-12 00:55:08.423308: step 22200, loss = 0.198551 (7.8 examples/sec)
+=> 2017-12-12 01:02:47.356992: step 22300, loss = 0.115230 (7.0 examples/sec)
+=> 2017-12-12 01:10:05.144006: step 22400, loss = 0.458135 (7.3 examples/sec)
+=> 2017-12-12 01:18:06.251119: step 22500, loss = 0.248471 (6.7 examples/sec)
+=> 2017-12-12 01:26:31.867462: step 22600, loss = 0.455036 (6.3 examples/sec)
+=> 2017-12-12 01:33:11.900606: step 22700, loss = 0.105766 (8.0 examples/sec)
+=> 2017-12-12 01:40:00.711012: step 22800, loss = 0.393974 (7.8 examples/sec)
+=> 2017-12-12 01:47:15.026976: step 22900, loss = 0.383826 (7.4 examples/sec)
+=> 2017-12-12 01:54:37.592840: step 23000, loss = 0.169349 (7.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.919285, best accuracy 0.917799
+=> Model saved to file: ./logs/train/model.ckpt-23000
+=> patience = 100
+=> 2017-12-12 02:19:01.434780: step 23100, loss = 0.153555 (9.6 examples/sec)
+=> 2017-12-12 11:03:37.857608: step 23200, loss = 0.080321 (0.1 examples/sec)
+=> 2017-12-12 11:09:47.198514: step 23300, loss = 0.466672 (8.7 examples/sec)
+=> 2017-12-12 11:16:03.350801: step 23400, loss = 0.436348 (8.5 examples/sec)
+=> 2017-12-12 11:22:21.688376: step 23500, loss = 0.098614 (8.5 examples/sec)
+=> 2017-12-12 11:28:32.560747: step 23600, loss = 0.750117 (8.6 examples/sec)
+=> 2017-12-12 11:34:38.690080: step 23700, loss = 0.104660 (8.7 examples/sec)
+=> 2017-12-12 14:41:23.306089: step 23800, loss = 0.696560 (0.3 examples/sec)
+=> 2017-12-12 15:51:59.425129: step 23900, loss = 0.308098 (0.8 examples/sec)
+=> 2017-12-12 15:58:44.611387: step 24000, loss = 0.277181 (7.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.923446, best accuracy 0.919285
+=> Model saved to file: ./logs/train/model.ckpt-24000
+=> patience = 100
+=> 2017-12-12 16:19:51.874898: step 24100, loss = 0.398170 (8.6 examples/sec)
+=> 2017-12-12 16:25:57.499796: step 24200, loss = 0.365790 (8.8 examples/sec)
+=> 2017-12-12 16:31:58.600711: step 24300, loss = 0.149868 (8.9 examples/sec)
+=> 2017-12-12 16:38:43.251411: step 24400, loss = 0.511810 (7.9 examples/sec)
+=> 2017-12-12 16:46:01.023059: step 24500, loss = 0.306510 (7.3 examples/sec)
+=> 2017-12-12 16:53:00.883557: step 24600, loss = 0.178189 (7.6 examples/sec)
+=> 2017-12-12 16:59:45.102889: step 24700, loss = 0.143347 (7.9 examples/sec)
+=> 2017-12-12 17:06:58.772987: step 24800, loss = 0.714694 (7.4 examples/sec)
+=> 2017-12-12 17:13:47.695380: step 24900, loss = 0.465561 (7.8 examples/sec)
+=> 2017-12-12 17:19:20.506225: step 25000, loss = 0.487505 (9.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.924210, best accuracy 0.923446
+=> Model saved to file: ./logs/train/model.ckpt-25000
+=> patience = 100
+=> 2017-12-12 17:42:25.041822: step 25100, loss = 0.999853 (8.4 examples/sec)
+=> 2017-12-12 17:48:52.160072: step 25200, loss = 0.399075 (8.3 examples/sec)
+=> 2017-12-12 17:54:25.487552: step 25300, loss = 0.573712 (9.6 examples/sec)
+=> 2017-12-12 17:59:58.958859: step 25400, loss = 0.417935 (9.6 examples/sec)
+=> 2017-12-12 18:06:12.206276: step 25500, loss = 0.773679 (8.6 examples/sec)
+=> 2017-12-12 18:12:29.646771: step 25600, loss = 0.029796 (8.5 examples/sec)
+=> 2017-12-12 18:18:43.508596: step 25700, loss = 0.247347 (8.6 examples/sec)
+=> 2017-12-12 18:25:14.507803: step 25800, loss = 0.530011 (8.2 examples/sec)
+=> 2017-12-12 19:26:24.832555: step 25900, loss = 0.475395 (0.9 examples/sec)
+=> 2017-12-12 19:34:01.610305: step 26000, loss = 0.313200 (7.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.926036, best accuracy 0.924210
+=> Model saved to file: ./logs/train/model.ckpt-26000
+=> patience = 100
+=> 2017-12-16 23:47:49.272315: step 26100, loss = 0.241895 (65.3 examples/sec)
+=> 2017-12-16 23:47:59.160942: step 26200, loss = 0.516865 (323.7 examples/sec)
+=> 2017-12-16 23:48:09.090867: step 26300, loss = 0.314081 (322.4 examples/sec)
+=> 2017-12-16 23:48:18.987307: step 26400, loss = 0.178415 (323.5 examples/sec)
+=> 2017-12-16 23:48:28.884839: step 26500, loss = 0.257538 (323.5 examples/sec)
+=> 2017-12-16 23:48:38.786935: step 26600, loss = 0.079642 (323.3 examples/sec)
+=> 2017-12-16 23:48:48.709844: step 26700, loss = 0.501778 (322.6 examples/sec)
+=> 2017-12-16 23:48:58.567313: step 26800, loss = 0.202866 (324.8 examples/sec)
+=> 2017-12-16 23:49:08.391555: step 26900, loss = 0.312584 (325.9 examples/sec)
+=> 2017-12-16 23:49:18.183351: step 27000, loss = 0.404450 (327.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-16 23:49:19.065905: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.949176, best accuracy 0.000000
+=> Model saved to file: ./logs/louis_model/model.ckpt-27000
+=> patience = 100
+=> 2017-12-16 23:49:52.692705: step 27100, loss = 0.249115 (320.5 examples/sec)
+=> 2017-12-16 23:50:02.623688: step 27200, loss = 0.470978 (322.4 examples/sec)
+=> 2017-12-16 23:50:12.578754: step 27300, loss = 0.214686 (321.6 examples/sec)
+=> 2017-12-16 23:50:22.525100: step 27400, loss = 0.244445 (321.9 examples/sec)
+=> 2017-12-16 23:50:32.497742: step 27500, loss = 0.396497 (321.0 examples/sec)
+=> 2017-12-16 23:50:42.494817: step 27600, loss = 0.417469 (320.2 examples/sec)
+=> 2017-12-16 23:50:52.509758: step 27700, loss = 0.275757 (319.7 examples/sec)
+=> 2017-12-16 23:51:02.429949: step 27800, loss = 0.223365 (322.7 examples/sec)
+=> 2017-12-16 23:51:12.390537: step 27900, loss = 0.196456 (321.4 examples/sec)
+=> 2017-12-16 23:51:22.349770: step 28000, loss = 0.102624 (321.4 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-16 23:51:23.129993: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.949948, best accuracy 0.949176
+=> Model saved to file: ./logs/louis_model/model.ckpt-28000
+=> patience = 100
+=> 2017-12-16 23:51:56.699662: step 28100, loss = 0.068083 (321.3 examples/sec)
+=> 2017-12-16 23:52:06.668865: step 28200, loss = 0.361565 (321.1 examples/sec)
+=> 2017-12-16 23:52:16.586228: step 28300, loss = 0.461426 (322.8 examples/sec)
+=> 2017-12-16 23:52:26.490021: step 28400, loss = 0.300150 (323.2 examples/sec)
+=> 2017-12-16 23:52:36.458157: step 28500, loss = 0.255709 (321.2 examples/sec)
+=> 2017-12-16 23:52:46.411433: step 28600, loss = 0.883315 (321.6 examples/sec)
+=> 2017-12-16 23:52:56.314843: step 28700, loss = 0.119379 (323.3 examples/sec)
+=> 2017-12-16 23:53:06.176801: step 28800, loss = 0.081267 (324.6 examples/sec)
+=> 2017-12-16 23:53:16.100267: step 28900, loss = 0.038373 (322.6 examples/sec)
+=> 2017-12-16 23:53:25.981815: step 29000, loss = 0.867785 (324.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-16 23:53:26.752029: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.950378, best accuracy 0.949948
+=> Model saved to file: ./logs/louis_model/model.ckpt-29000
+=> patience = 100
+=> 2017-12-16 23:54:00.272559: step 29100, loss = 0.102953 (321.1 examples/sec)
+=> 2017-12-16 23:54:10.167191: step 29200, loss = 0.035716 (323.5 examples/sec)
+=> 2017-12-16 23:54:20.124763: step 29300, loss = 0.319165 (321.5 examples/sec)
+=> 2017-12-16 23:54:30.027148: step 29400, loss = 0.190385 (323.3 examples/sec)
+=> 2017-12-16 23:54:39.906982: step 29500, loss = 0.573284 (324.0 examples/sec)
+=> 2017-12-16 23:54:49.815701: step 29600, loss = 0.059249 (323.1 examples/sec)
+=> 2017-12-16 23:54:59.760729: step 29700, loss = 0.027347 (321.9 examples/sec)
+=> 2017-12-16 23:55:09.686569: step 29800, loss = 0.163853 (322.5 examples/sec)
+=> 2017-12-16 23:55:19.643500: step 29900, loss = 0.068752 (321.5 examples/sec)
+=> 2017-12-16 23:55:29.677025: step 30000, loss = 0.040051 (319.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-16 23:55:30.459645: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.950163, best accuracy 0.950378
+=> patience = 99
+=> 2017-12-16 23:56:03.689048: step 30100, loss = 0.121059 (322.7 examples/sec)
+=> 2017-12-16 23:56:13.640337: step 30200, loss = 0.494868 (321.7 examples/sec)
+=> 2017-12-16 23:56:23.614895: step 30300, loss = 0.249439 (321.0 examples/sec)
+=> 2017-12-16 23:56:33.608074: step 30400, loss = 0.251242 (320.4 examples/sec)
+=> 2017-12-16 23:56:43.648602: step 30500, loss = 0.573828 (318.8 examples/sec)
+=> 2017-12-16 23:56:53.562595: step 30600, loss = 0.240543 (322.9 examples/sec)
+=> 2017-12-16 23:57:03.474362: step 30700, loss = 0.751197 (323.0 examples/sec)
+=> 2017-12-16 23:57:13.400288: step 30800, loss = 0.518352 (322.5 examples/sec)
+=> 2017-12-16 23:57:23.309275: step 30900, loss = 0.195024 (323.1 examples/sec)
+=> 2017-12-16 23:57:33.250552: step 31000, loss = 0.126707 (322.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-16 23:57:34.111273: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.952395, best accuracy 0.950378
+=> Model saved to file: ./logs/louis_model/model.ckpt-31000
+=> patience = 100
+=> 2017-12-16 23:58:07.324474: step 31100, loss = 0.127324 (322.4 examples/sec)
+=> 2017-12-16 23:58:17.172035: step 31200, loss = 0.482319 (325.1 examples/sec)
+=> 2017-12-16 23:58:27.105878: step 31300, loss = 0.044364 (322.3 examples/sec)
+=> 2017-12-16 23:58:37.023061: step 31400, loss = 0.212927 (322.8 examples/sec)
+=> 2017-12-16 23:58:46.946004: step 31500, loss = 0.566523 (322.6 examples/sec)
+=> 2017-12-16 23:58:56.869746: step 31600, loss = 0.026025 (322.6 examples/sec)
+=> 2017-12-16 23:59:06.799272: step 31700, loss = 0.159159 (322.4 examples/sec)
+=> 2017-12-16 23:59:16.684722: step 31800, loss = 0.136080 (323.8 examples/sec)
+=> 2017-12-16 23:59:26.586052: step 31900, loss = 0.103920 (323.3 examples/sec)
+=> 2017-12-16 23:59:36.499808: step 32000, loss = 0.425506 (322.9 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-16 23:59:37.268575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.950421, best accuracy 0.952395
+=> patience = 99
+=> 2017-12-17 00:00:10.410528: step 32100, loss = 0.045761 (322.5 examples/sec)
+=> 2017-12-17 00:00:20.151392: step 32200, loss = 0.342447 (328.6 examples/sec)
+=> 2017-12-17 00:00:30.007378: step 32300, loss = 0.186271 (324.8 examples/sec)
+=> 2017-12-17 00:00:39.923944: step 32400, loss = 0.171230 (322.8 examples/sec)
+=> 2017-12-17 00:00:49.870575: step 32500, loss = 0.287962 (321.9 examples/sec)
+=> 2017-12-17 00:00:59.802971: step 32600, loss = 0.522352 (322.3 examples/sec)
+=> 2017-12-17 00:01:09.616432: step 32700, loss = 0.075816 (326.2 examples/sec)
+=> 2017-12-17 00:01:19.533811: step 32800, loss = 0.128574 (322.8 examples/sec)
+=> 2017-12-17 00:01:29.356959: step 32900, loss = 0.103516 (325.9 examples/sec)
+=> 2017-12-17 00:01:39.228336: step 33000, loss = 0.270785 (324.3 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:01:39.978696: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953168, best accuracy 0.952395
+=> Model saved to file: ./logs/louis_model/model.ckpt-33000
+=> patience = 100
+=> 2017-12-17 00:02:13.197322: step 33100, loss = 0.333896 (323.3 examples/sec)
+=> 2017-12-17 00:02:23.169991: step 33200, loss = 0.049407 (321.0 examples/sec)
+=> 2017-12-17 00:02:33.191394: step 33300, loss = 0.937958 (319.4 examples/sec)
+=> 2017-12-17 00:02:43.125785: step 33400, loss = 0.140221 (322.2 examples/sec)
+=> 2017-12-17 00:02:53.039749: step 33500, loss = 0.173408 (322.9 examples/sec)
+=> 2017-12-17 00:03:02.885577: step 33600, loss = 0.618700 (325.1 examples/sec)
+=> 2017-12-17 00:03:12.772271: step 33700, loss = 0.079842 (323.8 examples/sec)
+=> 2017-12-17 00:03:22.648523: step 33800, loss = 0.127691 (324.1 examples/sec)
+=> 2017-12-17 00:03:32.557701: step 33900, loss = 0.040219 (323.1 examples/sec)
+=> 2017-12-17 00:03:42.537015: step 34000, loss = 0.275968 (320.8 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:03:43.410446: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953425, best accuracy 0.953168
+=> Model saved to file: ./logs/louis_model/model.ckpt-34000
+=> patience = 100
+=> 2017-12-17 00:04:16.582491: step 34100, loss = 0.082779 (323.2 examples/sec)
+=> 2017-12-17 00:04:26.387528: step 34200, loss = 0.021688 (326.5 examples/sec)
+=> 2017-12-17 00:04:36.303043: step 34300, loss = 0.030307 (322.8 examples/sec)
+=> 2017-12-17 00:04:46.261888: step 34400, loss = 0.017829 (321.5 examples/sec)
+=> 2017-12-17 00:04:56.227801: step 34500, loss = 0.024214 (321.2 examples/sec)
+=> 2017-12-17 00:05:06.097408: step 34600, loss = 0.504601 (324.3 examples/sec)
+=> 2017-12-17 00:05:15.999002: step 34700, loss = 0.181017 (323.3 examples/sec)
+=> 2017-12-17 00:05:25.902315: step 34800, loss = 0.015539 (323.2 examples/sec)
+=> 2017-12-17 00:05:35.815948: step 34900, loss = 0.332362 (322.9 examples/sec)
+=> 2017-12-17 00:05:45.701498: step 35000, loss = 0.150416 (323.8 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:05:46.539940: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.952610, best accuracy 0.953425
+=> patience = 99
+=> 2017-12-17 00:06:19.601391: step 35100, loss = 0.173140 (323.1 examples/sec)
+=> 2017-12-17 00:06:29.440627: step 35200, loss = 0.134573 (325.3 examples/sec)
+=> 2017-12-17 00:06:39.356060: step 35300, loss = 0.445426 (322.9 examples/sec)
+=> 2017-12-17 00:06:49.294265: step 35400, loss = 0.558534 (322.1 examples/sec)
+=> 2017-12-17 00:06:59.202404: step 35500, loss = 1.016412 (323.1 examples/sec)
+=> 2017-12-17 00:07:09.141944: step 35600, loss = 0.059093 (322.1 examples/sec)
+=> 2017-12-17 00:07:19.083095: step 35700, loss = 0.163321 (322.0 examples/sec)
+=> 2017-12-17 00:07:29.037084: step 35800, loss = 0.174296 (321.6 examples/sec)
+=> 2017-12-17 00:07:38.974896: step 35900, loss = 0.073426 (322.1 examples/sec)
+=> 2017-12-17 00:07:48.894397: step 36000, loss = 0.039935 (322.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:07:49.751585: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953211, best accuracy 0.953425
+=> patience = 98
+=> 2017-12-17 00:08:22.738635: step 36100, loss = 0.978251 (323.0 examples/sec)
+=> 2017-12-17 00:08:32.604971: step 36200, loss = 0.217218 (324.4 examples/sec)
+=> 2017-12-17 00:08:42.515898: step 36300, loss = 0.060721 (323.0 examples/sec)
+=> 2017-12-17 00:08:52.439379: step 36400, loss = 0.150881 (322.6 examples/sec)
+=> 2017-12-17 00:09:02.349298: step 36500, loss = 0.687782 (323.0 examples/sec)
+=> 2017-12-17 00:09:12.257863: step 36600, loss = 0.115864 (323.1 examples/sec)
+=> 2017-12-17 00:09:22.155979: step 36700, loss = 0.200134 (323.4 examples/sec)
+=> 2017-12-17 00:09:32.127907: step 36800, loss = 0.044750 (321.0 examples/sec)
+=> 2017-12-17 00:09:42.077574: step 36900, loss = 0.193138 (321.8 examples/sec)
+=> 2017-12-17 00:09:51.966553: step 37000, loss = 0.048197 (323.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:09:52.846119: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954284, best accuracy 0.953425
+=> Model saved to file: ./logs/louis_model/model.ckpt-37000
+=> patience = 100
+=> 2017-12-17 00:10:26.029633: step 37100, loss = 0.102647 (323.1 examples/sec)
+=> 2017-12-17 00:10:35.944265: step 37200, loss = 0.517874 (322.9 examples/sec)
+=> 2017-12-17 00:10:45.923801: step 37300, loss = 0.611320 (320.8 examples/sec)
+=> 2017-12-17 00:10:55.828315: step 37400, loss = 0.418919 (323.2 examples/sec)
+=> 2017-12-17 00:11:05.752435: step 37500, loss = 0.156424 (322.6 examples/sec)
+=> 2017-12-17 00:11:15.679454: step 37600, loss = 0.464753 (322.5 examples/sec)
+=> 2017-12-17 00:11:25.624705: step 37700, loss = 0.486426 (321.9 examples/sec)
+=> 2017-12-17 00:11:35.570090: step 37800, loss = 1.480429 (321.9 examples/sec)
+=> 2017-12-17 00:11:45.462696: step 37900, loss = 0.773265 (323.6 examples/sec)
+=> 2017-12-17 00:11:55.365835: step 38000, loss = 0.457500 (323.3 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:11:56.194429: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953340, best accuracy 0.954284
+=> patience = 99
+=> 2017-12-17 00:12:29.058019: step 38100, loss = 0.141489 (324.7 examples/sec)
+=> 2017-12-17 00:12:38.908375: step 38200, loss = 0.669107 (325.0 examples/sec)
+=> 2017-12-17 00:12:48.766601: step 38300, loss = 0.029786 (324.7 examples/sec)
+=> 2017-12-17 00:12:58.641709: step 38400, loss = 0.080391 (324.2 examples/sec)
+=> 2017-12-17 00:13:08.559752: step 38500, loss = 0.524348 (322.8 examples/sec)
+=> 2017-12-17 00:13:18.427907: step 38600, loss = 0.133663 (324.4 examples/sec)
+=> 2017-12-17 00:13:28.278089: step 38700, loss = 0.437141 (325.0 examples/sec)
+=> 2017-12-17 00:13:38.155818: step 38800, loss = 0.181343 (324.1 examples/sec)
+=> 2017-12-17 00:13:48.065744: step 38900, loss = 0.040503 (323.0 examples/sec)
+=> 2017-12-17 00:13:57.969964: step 39000, loss = 0.446082 (323.2 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:13:58.745427: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954069, best accuracy 0.954284
+=> patience = 98
+=> 2017-12-17 00:14:31.793641: step 39100, loss = 0.167586 (323.8 examples/sec)
+=> 2017-12-17 00:14:41.710374: step 39200, loss = 0.234214 (322.8 examples/sec)
+=> 2017-12-17 00:14:51.653600: step 39300, loss = 0.060253 (322.0 examples/sec)
+=> 2017-12-17 00:15:01.569271: step 39400, loss = 0.165308 (322.9 examples/sec)
+=> 2017-12-17 00:15:11.504519: step 39500, loss = 0.067738 (322.2 examples/sec)
+=> 2017-12-17 00:15:21.512721: step 39600, loss = 0.184379 (319.9 examples/sec)
+=> 2017-12-17 00:15:31.446011: step 39700, loss = 0.203503 (322.2 examples/sec)
+=> 2017-12-17 00:15:41.362220: step 39800, loss = 0.050163 (322.8 examples/sec)
+=> 2017-12-17 00:15:51.292268: step 39900, loss = 0.162032 (322.4 examples/sec)
+=> 2017-12-17 00:16:01.202225: step 40000, loss = 0.137052 (323.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:16:01.997975: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954112, best accuracy 0.954284
+=> patience = 97
+=> 2017-12-17 00:16:35.030116: step 40100, loss = 0.155900 (322.7 examples/sec)
+=> 2017-12-17 00:16:44.882552: step 40200, loss = 0.022244 (324.9 examples/sec)
+=> 2017-12-17 00:16:54.747830: step 40300, loss = 0.176093 (324.5 examples/sec)
+=> 2017-12-17 00:17:04.652291: step 40400, loss = 0.763389 (323.2 examples/sec)
+=> 2017-12-17 00:17:14.565710: step 40500, loss = 0.500977 (322.9 examples/sec)
+=> 2017-12-17 00:17:24.484832: step 40600, loss = 0.436157 (322.7 examples/sec)
+=> 2017-12-17 00:17:34.368718: step 40700, loss = 0.065495 (323.9 examples/sec)
+=> 2017-12-17 00:17:44.383258: step 40800, loss = 0.032247 (319.7 examples/sec)
+=> 2017-12-17 00:17:54.302863: step 40900, loss = 0.320485 (322.7 examples/sec)
+=> 2017-12-17 00:18:04.259340: step 41000, loss = 0.411133 (321.5 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:18:05.102849: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953340, best accuracy 0.954284
+=> patience = 96
+=> 2017-12-17 00:18:38.165369: step 41100, loss = 0.562216 (322.1 examples/sec)
+=> 2017-12-17 00:18:48.064921: step 41200, loss = 0.023204 (323.4 examples/sec)
+=> 2017-12-17 00:18:58.043684: step 41300, loss = 0.246025 (320.8 examples/sec)
+=> 2017-12-17 00:19:07.957762: step 41400, loss = 0.056890 (322.9 examples/sec)
+=> 2017-12-17 00:19:17.855711: step 41500, loss = 0.097106 (323.4 examples/sec)
+=> 2017-12-17 00:19:27.802829: step 41600, loss = 0.031287 (321.8 examples/sec)
+=> 2017-12-17 00:19:37.752346: step 41700, loss = 0.084920 (321.8 examples/sec)
+=> 2017-12-17 00:19:47.702911: step 41800, loss = 0.226106 (321.7 examples/sec)
+=> 2017-12-17 00:19:57.723617: step 41900, loss = 0.144549 (319.5 examples/sec)
+=> 2017-12-17 00:20:07.720164: step 42000, loss = 0.016562 (320.2 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:20:08.483860: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954112, best accuracy 0.954284
+=> patience = 95
+=> 2017-12-17 00:20:41.479225: step 42100, loss = 0.043185 (323.9 examples/sec)
+=> 2017-12-17 00:20:51.325832: step 42200, loss = 0.121022 (325.1 examples/sec)
+=> 2017-12-17 00:21:01.234974: step 42300, loss = 0.318486 (323.1 examples/sec)
+=> 2017-12-17 00:21:11.208785: step 42400, loss = 0.110089 (321.0 examples/sec)
+=> 2017-12-17 00:21:21.156168: step 42500, loss = 0.039244 (321.8 examples/sec)
+=> 2017-12-17 00:21:31.083346: step 42600, loss = 0.121838 (322.5 examples/sec)
+=> 2017-12-17 00:21:41.050835: step 42700, loss = 0.086348 (321.2 examples/sec)
+=> 2017-12-17 00:21:50.992969: step 42800, loss = 0.153473 (322.0 examples/sec)
+=> 2017-12-17 00:22:00.943830: step 42900, loss = 0.314481 (321.7 examples/sec)
+=> 2017-12-17 00:22:10.859584: step 43000, loss = 0.014994 (322.8 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:22:11.710885: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.951837, best accuracy 0.954284
+=> patience = 94
+=> 2017-12-17 00:22:44.651587: step 43100, loss = 0.113580 (321.6 examples/sec)
+=> 2017-12-17 00:22:54.466518: step 43200, loss = 0.041917 (326.2 examples/sec)
+=> 2017-12-17 00:23:04.294480: step 43300, loss = 0.238937 (325.7 examples/sec)
+=> 2017-12-17 00:23:14.151200: step 43400, loss = 0.017063 (324.8 examples/sec)
+=> 2017-12-17 00:23:23.861491: step 43500, loss = 0.456141 (329.7 examples/sec)
+=> 2017-12-17 00:23:33.734178: step 43600, loss = 0.053507 (324.3 examples/sec)
+=> 2017-12-17 00:23:43.580157: step 43700, loss = 0.043037 (325.1 examples/sec)
+=> 2017-12-17 00:23:53.383740: step 43800, loss = 0.449432 (326.6 examples/sec)
+=> 2017-12-17 00:24:03.105054: step 43900, loss = 0.089939 (329.3 examples/sec)
+=> 2017-12-17 00:24:12.890952: step 44000, loss = 0.186518 (327.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:24:13.776625: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954112, best accuracy 0.954284
+=> patience = 93
+=> 2017-12-17 00:24:46.690686: step 44100, loss = 0.187551 (323.3 examples/sec)
+=> 2017-12-17 00:24:56.514070: step 44200, loss = 0.290621 (325.9 examples/sec)
+=> 2017-12-17 00:25:06.333111: step 44300, loss = 0.064612 (326.0 examples/sec)
+=> 2017-12-17 00:25:16.166293: step 44400, loss = 0.072141 (325.6 examples/sec)
+=> 2017-12-17 00:25:25.987278: step 44500, loss = 0.316894 (326.0 examples/sec)
+=> 2017-12-17 00:25:35.838345: step 44600, loss = 0.243364 (325.0 examples/sec)
+=> 2017-12-17 00:25:45.666689: step 44700, loss = 0.085643 (325.7 examples/sec)
+=> 2017-12-17 00:25:55.560194: step 44800, loss = 0.612058 (323.6 examples/sec)
+=> 2017-12-17 00:26:05.363900: step 44900, loss = 0.256067 (326.5 examples/sec)
+=> 2017-12-17 00:26:15.169997: step 45000, loss = 0.299315 (326.5 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:26:15.960497: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955829, best accuracy 0.954284
+=> Model saved to file: ./logs/louis_model/model.ckpt-45000
+=> patience = 100
+=> 2017-12-17 00:26:49.135346: step 45100, loss = 0.782423 (325.1 examples/sec)
+=> 2017-12-17 00:26:58.862586: step 45200, loss = 0.029548 (329.1 examples/sec)
+=> 2017-12-17 00:27:08.664553: step 45300, loss = 0.688354 (326.6 examples/sec)
+=> 2017-12-17 00:27:18.392895: step 45400, loss = 0.203213 (329.1 examples/sec)
+=> 2017-12-17 00:27:28.162362: step 45500, loss = 0.145248 (327.7 examples/sec)
+=> 2017-12-17 00:27:37.981432: step 45600, loss = 0.070340 (326.0 examples/sec)
+=> 2017-12-17 00:27:47.764411: step 45700, loss = 0.231027 (327.2 examples/sec)
+=> 2017-12-17 00:27:57.588783: step 45800, loss = 0.132184 (325.9 examples/sec)
+=> 2017-12-17 00:28:07.420741: step 45900, loss = 0.037828 (325.6 examples/sec)
+=> 2017-12-17 00:28:17.314373: step 46000, loss = 0.125614 (323.6 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:28:18.088776: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954241, best accuracy 0.955829
+=> patience = 99
+=> 2017-12-17 00:28:51.010808: step 46100, loss = 0.739896 (324.2 examples/sec)
+=> 2017-12-17 00:29:00.851453: step 46200, loss = 0.095592 (325.3 examples/sec)
+=> 2017-12-17 00:29:10.648388: step 46300, loss = 0.054371 (326.8 examples/sec)
+=> 2017-12-17 00:29:20.570723: step 46400, loss = 0.177136 (322.7 examples/sec)
+=> 2017-12-17 00:29:30.488126: step 46500, loss = 0.115320 (322.8 examples/sec)
+=> 2017-12-17 00:29:40.323016: step 46600, loss = 0.124924 (325.5 examples/sec)
+=> 2017-12-17 00:29:50.132609: step 46700, loss = 0.251664 (326.3 examples/sec)
+=> 2017-12-17 00:29:59.953681: step 46800, loss = 0.790835 (326.0 examples/sec)
+=> 2017-12-17 00:30:09.783444: step 46900, loss = 0.783735 (325.7 examples/sec)
+=> 2017-12-17 00:30:19.592409: step 47000, loss = 0.119102 (326.4 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:30:20.438918: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953554, best accuracy 0.955829
+=> patience = 98
+=> 2017-12-17 00:30:53.303568: step 47100, loss = 0.292028 (324.6 examples/sec)
+=> 2017-12-17 00:31:02.965556: step 47200, loss = 0.019475 (331.3 examples/sec)
+=> 2017-12-17 00:31:12.700682: step 47300, loss = 0.121500 (328.8 examples/sec)
+=> 2017-12-17 00:31:22.512110: step 47400, loss = 0.413355 (326.3 examples/sec)
+=> 2017-12-17 00:31:32.316135: step 47500, loss = 0.026715 (326.5 examples/sec)
+=> 2017-12-17 00:31:42.203015: step 47600, loss = 0.192708 (323.8 examples/sec)
+=> 2017-12-17 00:31:52.003022: step 47700, loss = 0.764669 (326.7 examples/sec)
+=> 2017-12-17 00:32:01.777333: step 47800, loss = 0.111574 (327.5 examples/sec)
+=> 2017-12-17 00:32:11.621863: step 47900, loss = 0.029394 (325.2 examples/sec)
+=> 2017-12-17 00:32:21.421063: step 48000, loss = 0.066035 (326.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:32:22.212637: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.952224, best accuracy 0.955829
+=> patience = 97
+=> 2017-12-17 00:32:55.069685: step 48100, loss = 0.223347 (322.9 examples/sec)
+=> 2017-12-17 00:33:04.856900: step 48200, loss = 0.164036 (327.1 examples/sec)
+=> 2017-12-17 00:33:14.699628: step 48300, loss = 0.128488 (325.2 examples/sec)
+=> 2017-12-17 00:33:24.541347: step 48400, loss = 0.292815 (325.3 examples/sec)
+=> 2017-12-17 00:33:34.349736: step 48500, loss = 0.190495 (326.4 examples/sec)
+=> 2017-12-17 00:33:44.199471: step 48600, loss = 0.253162 (325.0 examples/sec)
+=> 2017-12-17 00:33:54.049248: step 48700, loss = 0.046611 (325.0 examples/sec)
+=> 2017-12-17 00:34:03.929989: step 48800, loss = 0.295681 (324.0 examples/sec)
+=> 2017-12-17 00:34:13.742364: step 48900, loss = 0.076333 (326.3 examples/sec)
+=> 2017-12-17 00:34:23.526749: step 49000, loss = 1.303504 (327.2 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:34:24.486914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953855, best accuracy 0.955829
+=> patience = 96
+=> 2017-12-17 00:34:57.252052: step 49100, loss = 0.936131 (324.3 examples/sec)
+=> 2017-12-17 00:35:07.058679: step 49200, loss = 0.108430 (326.4 examples/sec)
+=> 2017-12-17 00:35:16.929642: step 49300, loss = 0.142447 (324.3 examples/sec)
+=> 2017-12-17 00:35:26.758047: step 49400, loss = 0.271653 (325.7 examples/sec)
+=> 2017-12-17 00:35:36.568844: step 49500, loss = 0.235652 (326.3 examples/sec)
+=> 2017-12-17 00:35:46.377786: step 49600, loss = 0.058084 (326.4 examples/sec)
+=> 2017-12-17 00:35:56.164981: step 49700, loss = 0.602226 (327.1 examples/sec)
+=> 2017-12-17 00:36:05.934069: step 49800, loss = 0.284812 (327.7 examples/sec)
+=> 2017-12-17 00:36:15.725279: step 49900, loss = 0.040835 (327.0 examples/sec)
+=> 2017-12-17 00:36:25.613938: step 50000, loss = 0.441985 (323.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:36:26.487227: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954928, best accuracy 0.955829
+=> patience = 95
+=> 2017-12-17 00:36:59.346565: step 50100, loss = 0.194436 (324.1 examples/sec)
+=> 2017-12-17 00:37:09.153796: step 50200, loss = 0.547253 (326.4 examples/sec)
+=> 2017-12-17 00:37:18.989827: step 50300, loss = 0.357850 (325.5 examples/sec)
+=> 2017-12-17 00:37:28.811873: step 50400, loss = 0.555854 (325.9 examples/sec)
+=> 2017-12-17 00:37:38.685053: step 50500, loss = 0.820319 (324.3 examples/sec)
+=> 2017-12-17 00:37:48.493042: step 50600, loss = 0.317089 (326.4 examples/sec)
+=> 2017-12-17 00:37:58.297002: step 50700, loss = 0.211548 (326.5 examples/sec)
+=> 2017-12-17 00:38:08.054280: step 50800, loss = 0.177048 (328.1 examples/sec)
+=> 2017-12-17 00:38:17.846948: step 50900, loss = 0.162326 (326.9 examples/sec)
+=> 2017-12-17 00:38:27.663373: step 51000, loss = 0.267660 (326.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:38:28.428326: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954842, best accuracy 0.955829
+=> patience = 94
+=> 2017-12-17 00:39:01.233552: step 51100, loss = 0.601721 (325.2 examples/sec)
+=> 2017-12-17 00:39:10.987807: step 51200, loss = 0.093293 (328.2 examples/sec)
+=> 2017-12-17 00:39:20.765601: step 51300, loss = 0.102387 (327.4 examples/sec)
+=> 2017-12-17 00:39:30.568986: step 51400, loss = 0.193700 (326.6 examples/sec)
+=> 2017-12-17 00:39:40.381767: step 51500, loss = 0.060606 (326.2 examples/sec)
+=> 2017-12-17 00:39:50.256719: step 51600, loss = 0.301094 (324.2 examples/sec)
+=> 2017-12-17 00:40:00.116880: step 51700, loss = 0.359251 (324.7 examples/sec)
+=> 2017-12-17 00:40:09.901914: step 51800, loss = 0.156777 (327.2 examples/sec)
+=> 2017-12-17 00:40:19.677639: step 51900, loss = 0.590280 (327.5 examples/sec)
+=> 2017-12-17 00:40:29.484611: step 52000, loss = 0.182092 (326.4 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:40:30.432756: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953769, best accuracy 0.955829
+=> patience = 93
+=> 2017-12-17 00:41:03.264080: step 52100, loss = 0.756633 (324.6 examples/sec)
+=> 2017-12-17 00:41:13.075729: step 52200, loss = 0.267799 (326.2 examples/sec)
+=> 2017-12-17 00:41:22.826968: step 52300, loss = 0.479207 (328.3 examples/sec)
+=> 2017-12-17 00:41:32.590258: step 52400, loss = 0.066981 (327.9 examples/sec)
+=> 2017-12-17 00:41:42.423687: step 52500, loss = 0.366284 (325.6 examples/sec)
+=> 2017-12-17 00:41:52.254629: step 52600, loss = 0.423708 (325.6 examples/sec)
+=> 2017-12-17 00:42:02.097411: step 52700, loss = 0.241513 (325.2 examples/sec)
+=> 2017-12-17 00:42:12.014011: step 52800, loss = 0.672352 (322.8 examples/sec)
+=> 2017-12-17 00:42:21.861337: step 52900, loss = 0.048139 (325.1 examples/sec)
+=> 2017-12-17 00:42:31.667853: step 53000, loss = 0.099767 (326.5 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:42:32.431264: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955958, best accuracy 0.955829
+=> Model saved to file: ./logs/louis_model/model.ckpt-53000
+=> patience = 100
+=> 2017-12-17 00:43:05.634690: step 53100, loss = 0.525653 (324.6 examples/sec)
+=> 2017-12-17 00:43:15.456348: step 53200, loss = 0.445117 (325.9 examples/sec)
+=> 2017-12-17 00:43:25.318907: step 53300, loss = 0.119900 (324.6 examples/sec)
+=> 2017-12-17 00:43:35.107062: step 53400, loss = 0.294667 (327.1 examples/sec)
+=> 2017-12-17 00:43:44.930473: step 53500, loss = 0.065117 (325.9 examples/sec)
+=> 2017-12-17 00:43:54.711814: step 53600, loss = 0.107845 (327.3 examples/sec)
+=> 2017-12-17 00:44:04.507400: step 53700, loss = 0.778549 (326.8 examples/sec)
+=> 2017-12-17 00:44:14.328706: step 53800, loss = 0.169533 (326.0 examples/sec)
+=> 2017-12-17 00:44:24.151036: step 53900, loss = 0.328051 (325.9 examples/sec)
+=> 2017-12-17 00:44:34.092905: step 54000, loss = 0.207762 (322.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:44:34.850877: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954198, best accuracy 0.955958
+=> patience = 99
+=> 2017-12-17 00:45:07.750095: step 54100, loss = 0.173205 (324.3 examples/sec)
+=> 2017-12-17 00:45:17.517242: step 54200, loss = 0.095090 (327.7 examples/sec)
+=> 2017-12-17 00:45:27.347467: step 54300, loss = 0.095564 (325.7 examples/sec)
+=> 2017-12-17 00:45:37.150838: step 54400, loss = 0.011210 (326.5 examples/sec)
+=> 2017-12-17 00:45:47.047905: step 54500, loss = 0.058096 (323.5 examples/sec)
+=> 2017-12-17 00:45:56.853278: step 54600, loss = 0.296511 (326.5 examples/sec)
+=> 2017-12-17 00:46:06.687396: step 54700, loss = 0.853682 (325.5 examples/sec)
+=> 2017-12-17 00:46:16.491369: step 54800, loss = 0.036886 (326.5 examples/sec)
+=> 2017-12-17 00:46:26.305808: step 54900, loss = 0.241154 (326.2 examples/sec)
+=> 2017-12-17 00:46:36.122456: step 55000, loss = 0.079906 (326.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:46:37.027137: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954155, best accuracy 0.955958
+=> patience = 98
+=> 2017-12-17 00:47:09.827087: step 55100, loss = 0.755465 (325.4 examples/sec)
+=> 2017-12-17 00:47:19.579833: step 55200, loss = 0.127757 (328.2 examples/sec)
+=> 2017-12-17 00:47:29.387933: step 55300, loss = 0.042244 (326.4 examples/sec)
+=> 2017-12-17 00:47:39.216293: step 55400, loss = 0.089646 (325.7 examples/sec)
+=> 2017-12-17 00:47:49.049447: step 55500, loss = 0.222111 (325.6 examples/sec)
+=> 2017-12-17 00:47:58.883905: step 55600, loss = 0.052532 (325.5 examples/sec)
+=> 2017-12-17 00:48:08.737740: step 55700, loss = 0.076292 (324.9 examples/sec)
+=> 2017-12-17 00:48:18.531125: step 55800, loss = 0.261187 (326.9 examples/sec)
+=> 2017-12-17 00:48:28.360680: step 55900, loss = 0.163410 (325.7 examples/sec)
+=> 2017-12-17 00:48:38.161139: step 56000, loss = 0.218231 (326.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:48:39.031624: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954713, best accuracy 0.955958
+=> patience = 97
+=> 2017-12-17 00:49:11.857863: step 56100, loss = 0.167232 (323.4 examples/sec)
+=> 2017-12-17 00:49:21.602349: step 56200, loss = 0.179895 (328.5 examples/sec)
+=> 2017-12-17 00:49:31.401334: step 56300, loss = 0.122112 (326.7 examples/sec)
+=> 2017-12-17 00:49:41.210974: step 56400, loss = 0.143762 (326.3 examples/sec)
+=> 2017-12-17 00:49:51.036633: step 56500, loss = 0.051866 (325.8 examples/sec)
+=> 2017-12-17 00:50:00.826836: step 56600, loss = 0.783200 (327.0 examples/sec)
+=> 2017-12-17 00:50:10.607076: step 56700, loss = 0.214283 (327.3 examples/sec)
+=> 2017-12-17 00:50:20.438360: step 56800, loss = 0.188567 (325.6 examples/sec)
+=> 2017-12-17 00:50:30.303590: step 56900, loss = 0.013031 (324.5 examples/sec)
+=> 2017-12-17 00:50:40.115679: step 57000, loss = 0.271556 (326.3 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:50:40.895951: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955915, best accuracy 0.955958
+=> patience = 96
+=> 2017-12-17 00:51:13.694757: step 57100, loss = 0.348461 (324.6 examples/sec)
+=> 2017-12-17 00:51:23.481291: step 57200, loss = 0.008449 (327.1 examples/sec)
+=> 2017-12-17 00:51:33.319889: step 57300, loss = 0.167210 (325.4 examples/sec)
+=> 2017-12-17 00:51:43.189766: step 57400, loss = 0.126190 (324.4 examples/sec)
+=> 2017-12-17 00:51:53.044380: step 57500, loss = 0.041443 (324.9 examples/sec)
+=> 2017-12-17 00:52:02.863587: step 57600, loss = 0.235484 (326.0 examples/sec)
+=> 2017-12-17 00:52:12.666245: step 57700, loss = 0.017038 (326.6 examples/sec)
+=> 2017-12-17 00:52:22.461024: step 57800, loss = 0.074116 (326.9 examples/sec)
+=> 2017-12-17 00:52:32.301423: step 57900, loss = 0.365859 (325.3 examples/sec)
+=> 2017-12-17 00:52:42.187484: step 58000, loss = 0.062625 (323.8 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:52:43.107209: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953511, best accuracy 0.955958
+=> patience = 95
+=> 2017-12-17 00:53:16.011750: step 58100, loss = 0.129780 (323.6 examples/sec)
+=> 2017-12-17 00:53:25.803066: step 58200, loss = 0.280953 (326.9 examples/sec)
+=> 2017-12-17 00:53:35.625076: step 58300, loss = 0.073441 (325.9 examples/sec)
+=> 2017-12-17 00:53:45.452076: step 58400, loss = 0.734457 (325.8 examples/sec)
+=> 2017-12-17 00:53:55.350842: step 58500, loss = 0.062248 (323.4 examples/sec)
+=> 2017-12-17 00:54:05.210722: step 58600, loss = 0.178654 (324.7 examples/sec)
+=> 2017-12-17 00:54:15.054745: step 58700, loss = 0.048098 (325.2 examples/sec)
+=> 2017-12-17 00:54:24.870472: step 58800, loss = 0.057645 (326.1 examples/sec)
+=> 2017-12-17 00:54:34.652802: step 58900, loss = 0.587326 (327.3 examples/sec)
+=> 2017-12-17 00:54:44.455674: step 59000, loss = 0.084550 (326.6 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:54:45.231602: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954370, best accuracy 0.955958
+=> patience = 94
+=> 2017-12-17 00:55:18.172736: step 59100, loss = 0.277274 (324.0 examples/sec)
+=> 2017-12-17 00:55:27.975163: step 59200, loss = 0.451073 (326.6 examples/sec)
+=> 2017-12-17 00:55:37.848349: step 59300, loss = 0.289416 (324.2 examples/sec)
+=> 2017-12-17 00:55:47.718030: step 59400, loss = 0.357914 (324.4 examples/sec)
+=> 2017-12-17 00:55:57.552900: step 59500, loss = 0.661072 (325.5 examples/sec)
+=> 2017-12-17 00:56:07.349979: step 59600, loss = 0.156800 (326.8 examples/sec)
+=> 2017-12-17 00:56:17.212859: step 59700, loss = 0.211568 (324.6 examples/sec)
+=> 2017-12-17 00:56:26.992010: step 59800, loss = 0.016883 (327.4 examples/sec)
+=> 2017-12-17 00:56:36.740789: step 59900, loss = 0.100384 (328.4 examples/sec)
+=> 2017-12-17 00:56:46.540985: step 60000, loss = 0.055884 (326.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:56:47.304194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953984, best accuracy 0.955958
+=> patience = 93
+=> 2017-12-17 00:57:20.196593: step 60100, loss = 0.037162 (323.8 examples/sec)
+=> 2017-12-17 00:57:30.103974: step 60200, loss = 0.073209 (323.1 examples/sec)
+=> 2017-12-17 00:57:39.870077: step 60300, loss = 0.266204 (327.8 examples/sec)
+=> 2017-12-17 00:57:49.666069: step 60400, loss = 0.366178 (326.8 examples/sec)
+=> 2017-12-17 00:57:59.427846: step 60500, loss = 0.030042 (327.9 examples/sec)
+=> 2017-12-17 00:58:09.191805: step 60600, loss = 0.556418 (327.9 examples/sec)
+=> 2017-12-17 00:58:19.003717: step 60700, loss = 0.571485 (326.3 examples/sec)
+=> 2017-12-17 00:58:28.856760: step 60800, loss = 0.242114 (324.9 examples/sec)
+=> 2017-12-17 00:58:38.742302: step 60900, loss = 0.086713 (323.8 examples/sec)
+=> 2017-12-17 00:58:48.587188: step 61000, loss = 0.091842 (325.2 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 00:58:49.448955: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954155, best accuracy 0.955958
+=> patience = 92
+=> 2017-12-17 00:59:22.272306: step 61100, loss = 0.057489 (324.8 examples/sec)
+=> 2017-12-17 00:59:31.995026: step 61200, loss = 0.019957 (329.2 examples/sec)
+=> 2017-12-17 00:59:41.821779: step 61300, loss = 0.266985 (325.8 examples/sec)
+=> 2017-12-17 00:59:51.693317: step 61400, loss = 0.092557 (324.3 examples/sec)
+=> 2017-12-17 01:00:01.514855: step 61500, loss = 0.416380 (326.0 examples/sec)
+=> 2017-12-17 01:00:11.315459: step 61600, loss = 0.601131 (326.7 examples/sec)
+=> 2017-12-17 01:00:21.118642: step 61700, loss = 0.041936 (326.6 examples/sec)
+=> 2017-12-17 01:00:30.937715: step 61800, loss = 0.165163 (326.0 examples/sec)
+=> 2017-12-17 01:00:40.756035: step 61900, loss = 0.098242 (326.1 examples/sec)
+=> 2017-12-17 01:00:50.608023: step 62000, loss = 0.252639 (325.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:00:51.392115: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.956044, best accuracy 0.955958
+=> Model saved to file: ./logs/louis_model/model.ckpt-62000
+=> patience = 100
+=> 2017-12-17 01:01:24.570231: step 62100, loss = 0.381865 (325.0 examples/sec)
+=> 2017-12-17 01:01:34.288057: step 62200, loss = 0.090600 (329.4 examples/sec)
+=> 2017-12-17 01:01:44.036203: step 62300, loss = 0.115202 (328.4 examples/sec)
+=> 2017-12-17 01:01:53.837514: step 62400, loss = 0.077295 (326.6 examples/sec)
+=> 2017-12-17 01:02:03.698759: step 62500, loss = 0.109287 (324.6 examples/sec)
+=> 2017-12-17 01:02:13.556643: step 62600, loss = 0.055473 (324.8 examples/sec)
+=> 2017-12-17 01:02:23.383351: step 62700, loss = 0.019042 (325.8 examples/sec)
+=> 2017-12-17 01:02:33.217669: step 62800, loss = 0.487717 (325.5 examples/sec)
+=> 2017-12-17 01:02:42.987796: step 62900, loss = 0.319600 (327.7 examples/sec)
+=> 2017-12-17 01:02:52.685066: step 63000, loss = 0.102432 (330.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:02:53.434675: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953726, best accuracy 0.956044
+=> patience = 99
+=> 2017-12-17 01:03:26.143018: step 63100, loss = 0.013382 (324.5 examples/sec)
+=> 2017-12-17 01:03:35.807878: step 63200, loss = 0.097859 (331.2 examples/sec)
+=> 2017-12-17 01:03:45.485827: step 63300, loss = 0.157176 (330.8 examples/sec)
+=> 2017-12-17 01:03:55.343633: step 63400, loss = 0.044623 (324.8 examples/sec)
+=> 2017-12-17 01:04:05.174758: step 63500, loss = 0.027595 (325.6 examples/sec)
+=> 2017-12-17 01:04:15.014443: step 63600, loss = 0.424591 (325.4 examples/sec)
+=> 2017-12-17 01:04:24.874235: step 63700, loss = 0.379244 (324.7 examples/sec)
+=> 2017-12-17 01:04:34.704615: step 63800, loss = 0.036885 (325.7 examples/sec)
+=> 2017-12-17 01:04:44.553508: step 63900, loss = 0.145229 (325.1 examples/sec)
+=> 2017-12-17 01:04:54.421607: step 64000, loss = 0.225791 (324.4 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:04:55.325374: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954456, best accuracy 0.956044
+=> patience = 98
+=> 2017-12-17 01:05:28.147077: step 64100, loss = 0.258257 (324.5 examples/sec)
+=> 2017-12-17 01:05:38.029299: step 64200, loss = 0.023614 (324.0 examples/sec)
+=> 2017-12-17 01:05:47.856547: step 64300, loss = 0.160373 (325.8 examples/sec)
+=> 2017-12-17 01:05:57.719972: step 64400, loss = 0.098202 (324.6 examples/sec)
+=> 2017-12-17 01:06:07.506547: step 64500, loss = 0.245779 (327.1 examples/sec)
+=> 2017-12-17 01:06:17.327328: step 64600, loss = 0.086716 (326.0 examples/sec)
+=> 2017-12-17 01:06:27.150116: step 64700, loss = 0.045135 (325.9 examples/sec)
+=> 2017-12-17 01:06:36.947415: step 64800, loss = 0.106771 (326.8 examples/sec)
+=> 2017-12-17 01:06:46.812153: step 64900, loss = 0.311760 (324.5 examples/sec)
+=> 2017-12-17 01:06:56.628702: step 65000, loss = 0.160239 (326.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:06:57.406735: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955271, best accuracy 0.956044
+=> patience = 97
+=> 2017-12-17 01:07:30.277223: step 65100, loss = 0.360082 (325.4 examples/sec)
+=> 2017-12-17 01:07:40.051573: step 65200, loss = 0.169798 (327.5 examples/sec)
+=> 2017-12-17 01:07:49.868776: step 65300, loss = 0.055779 (326.1 examples/sec)
+=> 2017-12-17 01:07:59.759572: step 65400, loss = 0.362185 (323.7 examples/sec)
+=> 2017-12-17 01:08:09.546746: step 65500, loss = 0.550138 (327.1 examples/sec)
+=> 2017-12-17 01:08:19.377055: step 65600, loss = 0.191636 (325.7 examples/sec)
+=> 2017-12-17 01:08:29.155650: step 65700, loss = 0.259553 (327.4 examples/sec)
+=> 2017-12-17 01:08:38.960969: step 65800, loss = 0.051128 (326.5 examples/sec)
+=> 2017-12-17 01:08:48.762754: step 65900, loss = 0.057458 (326.6 examples/sec)
+=> 2017-12-17 01:08:58.564716: step 66000, loss = 0.649013 (326.6 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:08:59.324406: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954069, best accuracy 0.956044
+=> patience = 96
+=> 2017-12-17 01:09:32.122827: step 66100, loss = 0.013484 (324.7 examples/sec)
+=> 2017-12-17 01:09:41.978703: step 66200, loss = 0.625342 (324.8 examples/sec)
+=> 2017-12-17 01:09:51.778580: step 66300, loss = 0.058011 (326.7 examples/sec)
+=> 2017-12-17 01:10:01.580236: step 66400, loss = 0.059124 (326.6 examples/sec)
+=> 2017-12-17 01:10:11.340839: step 66500, loss = 0.153463 (328.0 examples/sec)
+=> 2017-12-17 01:10:21.222808: step 66600, loss = 0.116495 (324.0 examples/sec)
+=> 2017-12-17 01:10:30.965252: step 66700, loss = 0.314782 (328.6 examples/sec)
+=> 2017-12-17 01:10:40.704629: step 66800, loss = 0.402043 (328.7 examples/sec)
+=> 2017-12-17 01:10:50.530883: step 66900, loss = 0.266031 (325.8 examples/sec)
+=> 2017-12-17 01:11:00.329997: step 67000, loss = 0.120019 (326.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:11:01.231235: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954327, best accuracy 0.956044
+=> patience = 95
+=> 2017-12-17 01:11:34.059329: step 67100, loss = 0.174248 (324.1 examples/sec)
+=> 2017-12-17 01:11:43.812909: step 67200, loss = 0.428417 (328.2 examples/sec)
+=> 2017-12-17 01:11:53.606163: step 67300, loss = 0.060126 (326.9 examples/sec)
+=> 2017-12-17 01:12:03.412334: step 67400, loss = 0.020951 (326.5 examples/sec)
+=> 2017-12-17 01:12:13.231566: step 67500, loss = 0.096828 (326.0 examples/sec)
+=> 2017-12-17 01:12:23.045212: step 67600, loss = 0.480886 (326.2 examples/sec)
+=> 2017-12-17 01:12:32.902886: step 67700, loss = 0.133246 (324.8 examples/sec)
+=> 2017-12-17 01:12:42.745782: step 67800, loss = 0.128479 (325.2 examples/sec)
+=> 2017-12-17 01:12:52.569356: step 67900, loss = 0.241473 (325.9 examples/sec)
+=> 2017-12-17 01:13:02.388999: step 68000, loss = 0.317898 (326.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:13:03.178218: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953769, best accuracy 0.956044
+=> patience = 94
+=> 2017-12-17 01:13:35.931710: step 68100, loss = 0.206126 (325.0 examples/sec)
+=> 2017-12-17 01:13:45.789801: step 68200, loss = 0.112243 (324.7 examples/sec)
+=> 2017-12-17 01:13:55.648553: step 68300, loss = 0.078777 (324.7 examples/sec)
+=> 2017-12-17 01:14:05.470219: step 68400, loss = 0.128755 (325.9 examples/sec)
+=> 2017-12-17 01:14:15.294631: step 68500, loss = 0.283575 (325.9 examples/sec)
+=> 2017-12-17 01:14:25.104460: step 68600, loss = 0.068743 (326.4 examples/sec)
+=> 2017-12-17 01:14:34.912746: step 68700, loss = 0.127549 (326.4 examples/sec)
+=> 2017-12-17 01:14:44.741324: step 68800, loss = 0.088566 (325.7 examples/sec)
+=> 2017-12-17 01:14:54.635840: step 68900, loss = 0.220136 (323.6 examples/sec)
+=> 2017-12-17 01:15:04.470620: step 69000, loss = 0.047140 (325.5 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:15:05.342194: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955100, best accuracy 0.956044
+=> patience = 93
+=> 2017-12-17 01:15:38.140421: step 69100, loss = 0.132854 (325.0 examples/sec)
+=> 2017-12-17 01:15:47.923857: step 69200, loss = 0.326144 (327.2 examples/sec)
+=> 2017-12-17 01:15:57.702437: step 69300, loss = 0.444199 (327.4 examples/sec)
+=> 2017-12-17 01:16:07.546757: step 69400, loss = 0.208727 (325.2 examples/sec)
+=> 2017-12-17 01:16:17.309629: step 69500, loss = 0.430232 (327.9 examples/sec)
+=> 2017-12-17 01:16:27.079914: step 69600, loss = 0.055285 (327.7 examples/sec)
+=> 2017-12-17 01:16:36.865773: step 69700, loss = 0.303760 (327.1 examples/sec)
+=> 2017-12-17 01:16:46.646622: step 69800, loss = 0.407192 (327.3 examples/sec)
+=> 2017-12-17 01:16:56.422294: step 69900, loss = 0.013648 (327.5 examples/sec)
+=> 2017-12-17 01:17:06.190576: step 70000, loss = 0.052483 (327.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:17:07.062664: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953297, best accuracy 0.956044
+=> patience = 92
+=> 2017-12-17 01:17:39.774514: step 70100, loss = 0.216549 (324.1 examples/sec)
+=> 2017-12-17 01:17:49.665165: step 70200, loss = 0.092015 (323.7 examples/sec)
+=> 2017-12-17 01:17:59.558344: step 70300, loss = 0.276524 (323.6 examples/sec)
+=> 2017-12-17 01:18:09.315625: step 70400, loss = 0.784075 (328.1 examples/sec)
+=> 2017-12-17 01:18:19.200549: step 70500, loss = 0.157845 (323.9 examples/sec)
+=> 2017-12-17 01:18:29.126957: step 70600, loss = 0.133939 (322.5 examples/sec)
+=> 2017-12-17 01:18:38.997780: step 70700, loss = 0.185404 (324.3 examples/sec)
+=> 2017-12-17 01:18:48.897440: step 70800, loss = 0.514669 (323.4 examples/sec)
+=> 2017-12-17 01:18:58.795277: step 70900, loss = 0.050224 (323.4 examples/sec)
+=> 2017-12-17 01:19:08.675781: step 71000, loss = 0.362983 (324.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:19:09.465813: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955615, best accuracy 0.956044
+=> patience = 91
+=> 2017-12-17 01:19:42.550564: step 71100, loss = 0.178391 (321.5 examples/sec)
+=> 2017-12-17 01:19:52.368875: step 71200, loss = 0.039818 (326.0 examples/sec)
+=> 2017-12-17 01:20:02.216889: step 71300, loss = 0.487774 (325.1 examples/sec)
+=> 2017-12-17 01:20:12.064231: step 71400, loss = 0.064240 (325.1 examples/sec)
+=> 2017-12-17 01:20:21.909154: step 71500, loss = 0.240039 (325.2 examples/sec)
+=> 2017-12-17 01:20:31.789049: step 71600, loss = 0.180679 (324.0 examples/sec)
+=> 2017-12-17 01:20:41.731019: step 71700, loss = 0.869466 (322.0 examples/sec)
+=> 2017-12-17 01:20:51.723806: step 71800, loss = 1.352231 (320.4 examples/sec)
+=> 2017-12-17 01:21:01.603966: step 71900, loss = 0.335747 (324.0 examples/sec)
+=> 2017-12-17 01:21:11.449364: step 72000, loss = 0.105383 (325.2 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:21:12.305333: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954885, best accuracy 0.956044
+=> patience = 90
+=> 2017-12-17 01:21:45.222100: step 72100, loss = 0.132789 (323.4 examples/sec)
+=> 2017-12-17 01:21:55.185007: step 72200, loss = 0.769274 (321.3 examples/sec)
+=> 2017-12-17 01:22:05.123147: step 72300, loss = 0.107039 (322.1 examples/sec)
+=> 2017-12-17 01:22:15.021060: step 72400, loss = 0.023330 (323.4 examples/sec)
+=> 2017-12-17 01:22:24.903814: step 72500, loss = 0.224800 (323.9 examples/sec)
+=> 2017-12-17 01:22:34.817345: step 72600, loss = 0.258509 (322.9 examples/sec)
+=> 2017-12-17 01:22:44.695658: step 72700, loss = 0.443885 (324.1 examples/sec)
+=> 2017-12-17 01:22:54.560143: step 72800, loss = 0.066901 (324.5 examples/sec)
+=> 2017-12-17 01:23:04.498545: step 72900, loss = 0.154147 (322.1 examples/sec)
+=> 2017-12-17 01:23:14.442259: step 73000, loss = 0.067085 (322.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:23:15.223825: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954069, best accuracy 0.956044
+=> patience = 89
+=> 2017-12-17 01:23:48.360635: step 73100, loss = 0.112912 (322.5 examples/sec)
+=> 2017-12-17 01:23:58.196592: step 73200, loss = 0.096910 (325.5 examples/sec)
+=> 2017-12-17 01:24:08.070278: step 73300, loss = 0.107943 (324.2 examples/sec)
+=> 2017-12-17 01:24:18.078931: step 73400, loss = 0.126491 (319.9 examples/sec)
+=> 2017-12-17 01:24:28.024287: step 73500, loss = 0.851918 (321.9 examples/sec)
+=> 2017-12-17 01:24:37.913196: step 73600, loss = 0.075043 (323.7 examples/sec)
+=> 2017-12-17 01:24:47.794956: step 73700, loss = 0.115802 (324.0 examples/sec)
+=> 2017-12-17 01:24:57.673542: step 73800, loss = 0.135968 (324.1 examples/sec)
+=> 2017-12-17 01:25:07.574597: step 73900, loss = 0.367036 (323.3 examples/sec)
+=> 2017-12-17 01:25:17.470580: step 74000, loss = 0.241072 (323.5 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:25:18.239108: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953898, best accuracy 0.956044
+=> patience = 88
+=> 2017-12-17 01:25:51.405535: step 74100, loss = 0.072994 (320.7 examples/sec)
+=> 2017-12-17 01:26:01.257220: step 74200, loss = 0.102351 (324.9 examples/sec)
+=> 2017-12-17 01:26:11.103031: step 74300, loss = 0.014713 (325.2 examples/sec)
+=> 2017-12-17 01:26:20.979410: step 74400, loss = 0.025248 (324.1 examples/sec)
+=> 2017-12-17 01:26:30.874829: step 74500, loss = 0.020874 (323.5 examples/sec)
+=> 2017-12-17 01:26:40.824614: step 74600, loss = 0.073990 (321.8 examples/sec)
+=> 2017-12-17 01:26:50.679324: step 74700, loss = 0.060186 (324.9 examples/sec)
+=> 2017-12-17 01:27:00.497492: step 74800, loss = 0.073699 (326.1 examples/sec)
+=> 2017-12-17 01:27:10.287695: step 74900, loss = 0.024316 (327.0 examples/sec)
+=> 2017-12-17 01:27:20.112106: step 75000, loss = 0.623356 (325.9 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:27:20.976932: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954069, best accuracy 0.956044
+=> patience = 87
+=> 2017-12-17 01:27:53.889095: step 75100, loss = 0.014809 (321.3 examples/sec)
+=> 2017-12-17 01:28:03.690128: step 75200, loss = 0.024549 (326.6 examples/sec)
+=> 2017-12-17 01:28:13.463245: step 75300, loss = 0.107447 (327.6 examples/sec)
+=> 2017-12-17 01:28:23.213518: step 75400, loss = 0.415084 (328.3 examples/sec)
+=> 2017-12-17 01:28:32.964951: step 75500, loss = 0.038084 (328.3 examples/sec)
+=> 2017-12-17 01:28:42.823325: step 75600, loss = 0.648375 (324.7 examples/sec)
+=> 2017-12-17 01:28:52.727914: step 75700, loss = 0.026639 (323.2 examples/sec)
+=> 2017-12-17 01:29:02.663051: step 75800, loss = 0.188844 (322.2 examples/sec)
+=> 2017-12-17 01:29:12.521336: step 75900, loss = 0.260917 (324.7 examples/sec)
+=> 2017-12-17 01:29:22.342203: step 76000, loss = 0.080891 (326.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:29:23.142329: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955958, best accuracy 0.956044
+=> patience = 86
+=> 2017-12-17 01:29:56.226303: step 76100, loss = 0.174910 (321.5 examples/sec)
+=> 2017-12-17 01:30:06.046571: step 76200, loss = 0.164057 (326.0 examples/sec)
+=> 2017-12-17 01:30:15.840505: step 76300, loss = 0.149600 (326.9 examples/sec)
+=> 2017-12-17 01:30:25.618344: step 76400, loss = 0.598896 (327.4 examples/sec)
+=> 2017-12-17 01:30:35.500775: step 76500, loss = 0.535685 (323.9 examples/sec)
+=> 2017-12-17 01:30:45.380196: step 76600, loss = 0.514753 (324.1 examples/sec)
+=> 2017-12-17 01:30:55.243865: step 76700, loss = 0.247047 (324.6 examples/sec)
+=> 2017-12-17 01:31:05.095821: step 76800, loss = 0.088396 (325.0 examples/sec)
+=> 2017-12-17 01:31:14.995243: step 76900, loss = 0.113885 (323.4 examples/sec)
+=> 2017-12-17 01:31:24.882211: step 77000, loss = 0.141362 (323.8 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:31:25.731575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954842, best accuracy 0.956044
+=> patience = 85
+=> 2017-12-17 01:31:58.863322: step 77100, loss = 0.134900 (322.1 examples/sec)
+=> 2017-12-17 01:32:08.664521: step 77200, loss = 0.197543 (326.6 examples/sec)
+=> 2017-12-17 01:32:18.520273: step 77300, loss = 0.143467 (324.8 examples/sec)
+=> 2017-12-17 01:32:28.489822: step 77400, loss = 0.155018 (321.1 examples/sec)
+=> 2017-12-17 01:32:38.403031: step 77500, loss = 0.273565 (322.9 examples/sec)
+=> 2017-12-17 01:32:48.286331: step 77600, loss = 0.061247 (323.9 examples/sec)
+=> 2017-12-17 01:32:58.178634: step 77700, loss = 0.323016 (323.6 examples/sec)
+=> 2017-12-17 01:33:08.039484: step 77800, loss = 0.162350 (324.7 examples/sec)
+=> 2017-12-17 01:33:17.929210: step 77900, loss = 0.143087 (323.7 examples/sec)
+=> 2017-12-17 01:33:27.790281: step 78000, loss = 0.050239 (324.6 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:33:28.667282: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955786, best accuracy 0.956044
+=> patience = 84
+=> 2017-12-17 01:34:01.732067: step 78100, loss = 0.405382 (321.9 examples/sec)
+=> 2017-12-17 01:34:11.487953: step 78200, loss = 0.067883 (328.1 examples/sec)
+=> 2017-12-17 01:34:21.232606: step 78300, loss = 0.578664 (328.5 examples/sec)
+=> 2017-12-17 01:34:30.994071: step 78400, loss = 0.137619 (327.9 examples/sec)
+=> 2017-12-17 01:34:40.803948: step 78500, loss = 0.242448 (326.3 examples/sec)
+=> 2017-12-17 01:34:50.787490: step 78600, loss = 0.226996 (320.7 examples/sec)
+=> 2017-12-17 01:35:00.652434: step 78700, loss = 0.052546 (324.5 examples/sec)
+=> 2017-12-17 01:35:10.505964: step 78800, loss = 0.284121 (324.9 examples/sec)
+=> 2017-12-17 01:35:20.329745: step 78900, loss = 0.035951 (325.9 examples/sec)
+=> 2017-12-17 01:35:30.121013: step 79000, loss = 0.145762 (327.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:35:30.917199: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.955615, best accuracy 0.956044
+=> patience = 83
+=> 2017-12-17 01:36:03.648774: step 79100, loss = 0.316315 (326.3 examples/sec)
+=> 2017-12-17 01:36:13.390710: step 79200, loss = 1.074409 (328.6 examples/sec)
+=> 2017-12-17 01:36:23.190913: step 79300, loss = 0.270895 (326.7 examples/sec)
+=> 2017-12-17 01:36:33.010447: step 79400, loss = 0.081134 (326.0 examples/sec)
+=> 2017-12-17 01:36:42.848970: step 79500, loss = 0.196233 (325.4 examples/sec)
+=> 2017-12-17 01:36:52.663937: step 79600, loss = 0.065220 (326.2 examples/sec)
+=> 2017-12-17 01:37:02.510928: step 79700, loss = 0.266671 (325.1 examples/sec)
+=> 2017-12-17 01:37:12.401110: step 79800, loss = 0.036692 (323.7 examples/sec)
+=> 2017-12-17 01:37:22.200454: step 79900, loss = 0.307779 (326.7 examples/sec)
+=> 2017-12-17 01:37:32.040295: step 80000, loss = 0.365025 (325.3 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:37:32.897217: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.956559, best accuracy 0.956044
+=> Model saved to file: ./logs/louis_model/model.ckpt-80000
+=> patience = 100
+=> 2017-12-17 01:38:06.298123: step 80100, loss = 0.149297 (321.5 examples/sec)
+=> 2017-12-17 01:38:16.189833: step 80200, loss = 0.005333 (323.6 examples/sec)
+=> 2017-12-17 01:38:26.158039: step 80300, loss = 0.451986 (321.1 examples/sec)
+=> 2017-12-17 01:38:36.046505: step 80400, loss = 0.098806 (323.7 examples/sec)
+=> 2017-12-17 01:38:45.956336: step 80500, loss = 0.213114 (323.0 examples/sec)
+=> 2017-12-17 01:38:55.865923: step 80600, loss = 0.023341 (323.1 examples/sec)
+=> 2017-12-17 01:39:05.697811: step 80700, loss = 0.347928 (325.6 examples/sec)
+=> 2017-12-17 01:39:15.584227: step 80800, loss = 0.127048 (323.8 examples/sec)
+=> 2017-12-17 01:39:25.518845: step 80900, loss = 0.366963 (322.3 examples/sec)
+=> 2017-12-17 01:39:35.480632: step 81000, loss = 0.037338 (321.4 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:39:36.390575: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954627, best accuracy 0.956559
+=> patience = 99
+=> 2017-12-17 01:40:09.551931: step 81100, loss = 0.018752 (321.2 examples/sec)
+=> 2017-12-17 01:40:19.396722: step 81200, loss = 0.143878 (325.2 examples/sec)
+=> 2017-12-17 01:40:29.253829: step 81300, loss = 0.144471 (324.8 examples/sec)
+=> 2017-12-17 01:40:39.263800: step 81400, loss = 0.066464 (319.8 examples/sec)
+=> 2017-12-17 01:40:49.157033: step 81500, loss = 0.124185 (323.6 examples/sec)
+=> 2017-12-17 01:40:59.019727: step 81600, loss = 0.043199 (324.6 examples/sec)
+=> 2017-12-17 01:41:08.906632: step 81700, loss = 0.058875 (323.8 examples/sec)
+=> 2017-12-17 01:41:18.799743: step 81800, loss = 0.084499 (323.6 examples/sec)
+=> 2017-12-17 01:41:28.676703: step 81900, loss = 0.035208 (324.1 examples/sec)
+=> 2017-12-17 01:41:38.559348: step 82000, loss = 0.027677 (323.9 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:41:39.323473: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954499, best accuracy 0.956559
+=> patience = 98
+=> 2017-12-17 01:42:12.413330: step 82100, loss = 0.197503 (321.4 examples/sec)
+=> 2017-12-17 01:42:22.302138: step 82200, loss = 0.040579 (323.7 examples/sec)
+=> 2017-12-17 01:42:32.165946: step 82300, loss = 0.030891 (324.5 examples/sec)
+=> 2017-12-17 01:42:41.999232: step 82400, loss = 0.999907 (325.6 examples/sec)
+=> 2017-12-17 01:42:51.830286: step 82500, loss = 0.097960 (325.6 examples/sec)
+=> 2017-12-17 01:43:01.846499: step 82600, loss = 0.043830 (319.6 examples/sec)
+=> 2017-12-17 01:43:11.764575: step 82700, loss = 0.272098 (322.8 examples/sec)
+=> 2017-12-17 01:43:21.667980: step 82800, loss = 0.094309 (323.3 examples/sec)
+=> 2017-12-17 01:43:31.581323: step 82900, loss = 0.081145 (322.9 examples/sec)
+=> 2017-12-17 01:43:41.465459: step 83000, loss = 0.037313 (323.9 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:43:42.375640: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.954112, best accuracy 0.956559
+=> patience = 97
+=> 2017-12-17 01:44:15.451898: step 83100, loss = 0.140547 (322.4 examples/sec)
+=> 2017-12-17 01:44:25.341344: step 83200, loss = 0.173588 (323.7 examples/sec)
+=> 2017-12-17 01:44:35.159754: step 83300, loss = 0.325972 (326.1 examples/sec)
+=> 2017-12-17 01:44:45.058040: step 83400, loss = 0.770916 (323.4 examples/sec)
+=> 2017-12-17 01:44:54.939202: step 83500, loss = 0.299536 (324.0 examples/sec)
+=> 2017-12-17 01:45:04.803960: step 83600, loss = 0.060523 (324.5 examples/sec)
+=> 2017-12-17 01:45:14.736727: step 83700, loss = 0.616485 (322.3 examples/sec)
+=> 2017-12-17 01:45:24.699458: step 83800, loss = 0.106926 (321.3 examples/sec)
+=> 2017-12-17 01:45:34.604961: step 83900, loss = 0.208371 (323.2 examples/sec)
+=> 2017-12-17 01:45:44.514730: step 84000, loss = 0.240898 (323.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 01:45:45.357984: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.953640, best accuracy 0.956559
+=> patience = 96
+=> 2017-12-17 03:47:18.261559: step 84100, loss = 0.066130 (67.2 examples/sec)
+=> 2017-12-17 03:47:27.972011: step 84200, loss = 0.012260 (329.6 examples/sec)
+=> 2017-12-17 03:47:37.765631: step 84300, loss = 0.340219 (326.9 examples/sec)
+=> 2017-12-17 03:47:47.636178: step 84400, loss = 0.010692 (324.3 examples/sec)
+=> 2017-12-17 03:47:57.593106: step 84500, loss = 0.010189 (321.5 examples/sec)
+=> 2017-12-17 03:48:07.467590: step 84600, loss = 0.114986 (324.2 examples/sec)
+=> 2017-12-17 03:48:17.339516: step 84700, loss = 0.140723 (324.3 examples/sec)
+=> 2017-12-17 03:48:27.203844: step 84800, loss = 0.459236 (324.5 examples/sec)
+=> 2017-12-17 03:48:37.036563: step 84900, loss = 0.025621 (325.6 examples/sec)
+=> 2017-12-17 03:48:46.866178: step 85000, loss = 0.114491 (325.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 03:48:47.731293: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.961951, best accuracy 0.000000
+=> Model saved to file: ./logs/louis_model/model.ckpt-85000
+=> patience = 100
+=> 2017-12-17 03:49:21.858636: step 85100, loss = 0.713566 (324.3 examples/sec)
+=> 2017-12-17 03:49:31.693729: step 85200, loss = 0.034990 (325.5 examples/sec)
+=> 2017-12-17 03:49:41.520392: step 85300, loss = 0.018014 (325.8 examples/sec)
+=> 2017-12-17 03:49:51.358400: step 85400, loss = 0.548747 (325.4 examples/sec)
+=> 2017-12-17 03:50:01.236375: step 85500, loss = 0.318324 (324.1 examples/sec)
+=> 2017-12-17 03:50:11.112498: step 85600, loss = 0.130840 (324.2 examples/sec)
+=> 2017-12-17 03:50:21.031789: step 85700, loss = 0.266694 (322.7 examples/sec)
+=> 2017-12-17 03:50:30.874225: step 85800, loss = 0.083584 (325.3 examples/sec)
+=> 2017-12-17 03:50:40.603898: step 85900, loss = 0.033330 (329.0 examples/sec)
+=> 2017-12-17 03:50:50.249723: step 86000, loss = 0.051758 (331.9 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 03:50:51.020696: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.961402, best accuracy 0.961951
+=> patience = 99
+=> 2017-12-17 03:51:24.602911: step 86100, loss = 0.418446 (325.5 examples/sec)
+=> 2017-12-17 03:51:34.440208: step 86200, loss = 0.033476 (325.4 examples/sec)
+=> 2017-12-17 03:51:44.171457: step 86300, loss = 0.014516 (329.0 examples/sec)
+=> 2017-12-17 03:51:53.908110: step 86400, loss = 0.029141 (328.8 examples/sec)
+=> 2017-12-17 03:52:03.662879: step 86500, loss = 0.024906 (328.2 examples/sec)
+=> 2017-12-17 03:52:13.433508: step 86600, loss = 0.063654 (327.7 examples/sec)
+=> 2017-12-17 03:52:23.199419: step 86700, loss = 0.155595 (327.8 examples/sec)
+=> 2017-12-17 03:52:32.899841: step 86800, loss = 0.028534 (330.0 examples/sec)
+=> 2017-12-17 03:52:42.620959: step 86900, loss = 0.391181 (329.3 examples/sec)
+=> 2017-12-17 03:52:52.384178: step 87000, loss = 0.183591 (327.9 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 03:52:53.180023: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.961233, best accuracy 0.961951
+=> patience = 98
+=> 2017-12-17 03:53:26.731364: step 87100, loss = 0.494729 (325.6 examples/sec)
+=> 2017-12-17 03:53:36.485037: step 87200, loss = 0.053496 (328.2 examples/sec)
+=> 2017-12-17 03:53:46.326101: step 87300, loss = 0.177371 (325.3 examples/sec)
+=> 2017-12-17 03:53:56.189569: step 87400, loss = 0.048587 (324.6 examples/sec)
+=> 2017-12-17 03:54:06.007387: step 87500, loss = 0.027903 (326.1 examples/sec)
+=> 2017-12-17 03:54:15.843250: step 87600, loss = 0.106208 (325.5 examples/sec)
+=> 2017-12-17 03:54:25.654391: step 87700, loss = 0.147441 (326.3 examples/sec)
+=> 2017-12-17 03:54:35.493250: step 87800, loss = 0.604186 (325.4 examples/sec)
+=> 2017-12-17 03:54:45.323148: step 87900, loss = 0.308723 (325.7 examples/sec)
+=> 2017-12-17 03:54:55.129047: step 88000, loss = 0.119973 (326.5 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 03:54:56.008356: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.962247, best accuracy 0.961951
+=> Model saved to file: ./logs/louis_model/model.ckpt-88000
+=> patience = 100
+=> 2017-12-17 03:55:29.763713: step 88100, loss = 0.100249 (325.4 examples/sec)
+=> 2017-12-17 03:55:39.598007: step 88200, loss = 0.161579 (325.5 examples/sec)
+=> 2017-12-17 03:55:49.402233: step 88300, loss = 0.794155 (326.5 examples/sec)
+=> 2017-12-17 03:55:59.248202: step 88400, loss = 0.071177 (325.1 examples/sec)
+=> 2017-12-17 03:56:09.107027: step 88500, loss = 0.245030 (324.7 examples/sec)
+=> 2017-12-17 03:56:18.951525: step 88600, loss = 0.254948 (325.2 examples/sec)
+=> 2017-12-17 03:56:28.741768: step 88700, loss = 0.237984 (327.0 examples/sec)
+=> 2017-12-17 03:56:38.548429: step 88800, loss = 0.202616 (326.5 examples/sec)
+=> 2017-12-17 03:56:48.361121: step 88900, loss = 0.219173 (326.2 examples/sec)
+=> 2017-12-17 03:56:58.169008: step 89000, loss = 0.066164 (326.4 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 03:56:58.941662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.961318, best accuracy 0.962247
+=> patience = 99
+=> 2017-12-17 03:57:32.577088: step 89100, loss = 0.538711 (325.5 examples/sec)
+=> 2017-12-17 03:57:42.306280: step 89200, loss = 0.016954 (329.0 examples/sec)
+=> 2017-12-17 03:57:51.842475: step 89300, loss = 0.204347 (335.7 examples/sec)
+=> 2017-12-17 03:58:01.658387: step 89400, loss = 0.074746 (326.1 examples/sec)
+=> 2017-12-17 03:58:11.467031: step 89500, loss = 0.175090 (326.4 examples/sec)
+=> 2017-12-17 03:58:21.272857: step 89600, loss = 0.343166 (326.5 examples/sec)
+=> 2017-12-17 03:58:31.187484: step 89700, loss = 0.103107 (322.9 examples/sec)
+=> 2017-12-17 03:58:41.013118: step 89800, loss = 0.439617 (325.8 examples/sec)
+=> 2017-12-17 03:58:50.819632: step 89900, loss = 0.670787 (326.5 examples/sec)
+=> 2017-12-17 03:59:00.727576: step 90000, loss = 0.190493 (323.1 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 03:59:01.501552: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.960895, best accuracy 0.962247
+=> patience = 98
+=> 2017-12-17 03:59:35.055192: step 90100, loss = 0.148894 (325.4 examples/sec)
+=> 2017-12-17 03:59:44.972934: step 90200, loss = 0.005926 (322.8 examples/sec)
+=> 2017-12-17 03:59:54.756082: step 90300, loss = 0.344404 (327.2 examples/sec)
+=> 2017-12-17 04:00:04.564538: step 90400, loss = 1.152197 (326.4 examples/sec)
+=> 2017-12-17 04:00:14.407260: step 90500, loss = 0.077329 (325.3 examples/sec)
+=> 2017-12-17 04:00:24.192836: step 90600, loss = 0.458259 (327.2 examples/sec)
+=> 2017-12-17 04:00:34.003233: step 90700, loss = 0.423980 (326.3 examples/sec)
+=> 2017-12-17 04:00:43.794887: step 90800, loss = 0.282842 (327.0 examples/sec)
+=> 2017-12-17 04:00:53.574377: step 90900, loss = 0.116619 (327.4 examples/sec)
+=> 2017-12-17 04:01:03.212043: step 91000, loss = 0.147323 (332.2 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 04:01:04.072872: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.962542, best accuracy 0.962247
+=> Model saved to file: ./logs/louis_model/model.ckpt-91000
+=> patience = 100
+=> 2017-12-17 04:01:37.624558: step 91100, loss = 0.068268 (325.4 examples/sec)
+=> 2017-12-17 04:01:47.373439: step 91200, loss = 0.378448 (328.4 examples/sec)
+=> 2017-12-17 04:01:57.206861: step 91300, loss = 0.255943 (325.6 examples/sec)
+=> 2017-12-17 04:02:07.100259: step 91400, loss = 0.023109 (323.6 examples/sec)
+=> 2017-12-17 04:02:16.913427: step 91500, loss = 0.027950 (326.2 examples/sec)
+=> 2017-12-17 04:02:26.649346: step 91600, loss = 0.115301 (328.8 examples/sec)
+=> 2017-12-17 04:02:36.423616: step 91700, loss = 0.059925 (327.5 examples/sec)
+=> 2017-12-17 04:02:46.230888: step 91800, loss = 0.134143 (326.4 examples/sec)
+=> 2017-12-17 04:02:56.048771: step 91900, loss = 0.037629 (326.1 examples/sec)
+=> 2017-12-17 04:03:05.877924: step 92000, loss = 0.146163 (325.7 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 04:03:06.701925: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.961402, best accuracy 0.962542
+=> patience = 99
+=> 2017-12-17 04:03:40.070517: step 92100, loss = 0.073375 (325.5 examples/sec)
+=> 2017-12-17 04:03:49.884479: step 92200, loss = 0.209957 (326.2 examples/sec)
+=> 2017-12-17 04:03:59.720664: step 92300, loss = 0.656715 (325.5 examples/sec)
+=> 2017-12-17 04:04:09.535649: step 92400, loss = 0.448485 (326.2 examples/sec)
+=> 2017-12-17 04:04:19.388187: step 92500, loss = 0.259891 (324.9 examples/sec)
+=> 2017-12-17 04:04:29.231325: step 92600, loss = 0.089040 (325.2 examples/sec)
+=> 2017-12-17 04:04:39.027518: step 92700, loss = 0.101834 (326.8 examples/sec)
+=> 2017-12-17 04:04:48.811174: step 92800, loss = 0.648287 (327.2 examples/sec)
+=> 2017-12-17 04:04:58.672279: step 92900, loss = 0.766453 (324.6 examples/sec)
+=> 2017-12-17 04:05:08.494259: step 93000, loss = 0.045386 (325.9 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 04:05:09.241471: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.963809, best accuracy 0.962542
+=> Model saved to file: ./logs/louis_model/model.ckpt-93000
+=> patience = 100
+=> 2017-12-17 04:05:42.682961: step 93100, loss = 0.270978 (326.1 examples/sec)
+=> 2017-12-17 04:05:52.449419: step 93200, loss = 0.279279 (327.8 examples/sec)
+=> 2017-12-17 04:06:02.196184: step 93300, loss = 0.018206 (328.4 examples/sec)
+=> 2017-12-17 04:06:11.974214: step 93400, loss = 0.277507 (327.4 examples/sec)
+=> 2017-12-17 04:06:21.780524: step 93500, loss = 0.110505 (326.5 examples/sec)
+=> 2017-12-17 04:06:31.564894: step 93600, loss = 0.088237 (327.2 examples/sec)
+=> 2017-12-17 04:06:41.407901: step 93700, loss = 0.400555 (325.2 examples/sec)
+=> 2017-12-17 04:06:51.167823: step 93800, loss = 0.040247 (328.0 examples/sec)
+=> 2017-12-17 04:07:00.981536: step 93900, loss = 0.247637 (326.2 examples/sec)
+=> 2017-12-17 04:07:10.771519: step 94000, loss = 0.177813 (327.0 examples/sec)
+=> Evaluating on validation dataset...
+2017-12-17 04:07:11.641763: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+==> accuracy = 0.963133, best accuracy 0.963809
+=> patience = 99
+=> 2017-12-17 04:07:44.834719: step 94100, loss = 0.247712 (326.7 examples/sec)
+=> 2017-12-17 04:07:54.615591: step 94200, loss = 0.074061 (327.3 examples/sec)
+=> 2017-12-17 04:08:04.393900: step 94300, loss = 0.322186 (327.4 examples/sec)
+=> 2017-12-17 04:08:14.180736: step 94400, loss = 0.433673 (327.1 examples/sec)
+=> 2017-12-17 04:08:23.961446: step 94500, loss = 0.366144 (327.3 examples/sec)
+=> 2017-12-17 04:08:33.784846: step 94600, loss = 0.091503 (325.9 examples/sec)
+=> 2017-12-17 04:08:43.578065: step 94700, loss = 0.057491 (326.9 examples/sec)
+=> 2017-12-17 04:08:53.418679: step 94800, loss = 0.111377 (325.3 examples/sec)
+=> 2017-12-17 04:09:03.314348: step 94900, loss = 0.024781 (323.5 examples/sec)
+=> 2017-12-17 04:09:13.122196: step 95000, loss = 0.014720 (326.4 examples/sec)
+=> Evaluating on validation dataset...

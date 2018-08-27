@@ -1,0 +1,41 @@
+Create TfRecords:
+1. Get the paths of the train, validation, and test data
+2. Get the attributes of the image data from the digit structure mat file
+3. Get the bounding boxes of the images from the attributes
+4. Crop and resize the image to 64 * 64 by random cropping with box as the center of the image
+5. Write the resized images to tfrecords file
+6. Create TfRecords meta file which stores the length of examples for training, validation and test data
+Data Utils:
+1. Fetch batch size number of images from the TfRecords file in shuffled manner if specified.
+2. Fetch the labeled values for batch images from the TfRecords file.
+3. Convert image type and resize the image to 54 * 54* 3.
+4. Return the batch images and their labelled values.
+Evaluator:
+1. Get the TfRecords of the train, validation, and test data.
+2. Get the latest checkpoint model.
+3. Fetch images and their correct labels in batch using Data Utils file.
+4. Get the inference(predicted) values of the batch images from the model.
+5. Check the accuracy of the predicted values.
+6. Accuracy measure: Predicted value is correct only if all the digits and length of the digits are matched.
+7. Prints the total accuracy value of the train, validation, and test data.
+Model:
+1. Contains the layout of the model and the layers model is using.
+2. Model is using total 10 hidden layers with 8 convolutional layers, and 2 dense layers.
+3. Softmax layer for each digit and length of the digits after dense layers
+3. It also claculates the softmax cross entropy loss of the feedforward output.
+Meta:
+1. Save function saves the number of examples each train, validation and test dataset has.
+2. Load function gets the number of examples in the train, validation, and test dataset from the meta file.
+Train:
+1. Make the Patience level(*****explain patience level here****) as 100
+2. Get the train, and validation data and their attributes from the TfRecords file
+3. By using Batch utils fetch the batch images and their correct labels.
+4. Get the inference of the data from the model.
+5. Calculate the cross entropy loss of the output.
+6. Train the model using gradient descent optimizer by exponentially decaying the learning rate.
+7. Calculate the validation accuracy and check with previously trained accuracy.
+8. If there is a gain in accuracy, then save the model, else patience level decreases by 1.
+9. Train the model until the accuracy gets saturated or the patience level of the model falls below significant level.
+Inference:
+1. Fetch the batch images and their labelled values of the test data from the TfRecords file.
+2. Preprocess the images using data utils function and predict the values using the latest model.
