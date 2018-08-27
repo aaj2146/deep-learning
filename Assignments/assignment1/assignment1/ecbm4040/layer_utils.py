@@ -58,10 +58,6 @@ class DenseLayer(FullyConnectedLayer):
         #TODO: out = ReLU(X*W + b). Use functions in   #
         #layer_funcs.py                                #
         ################################################
-        aff_forward = affine_forward(X, self.params[0], self.params[1])
-        self.A = aff_forward
-        out = relu_forward(aff_forward)
-        self.X = X
 
         
         ################################################
@@ -89,11 +85,6 @@ class DenseLayer(FullyConnectedLayer):
         #TODO: derive the gradients wst to X, W, b. Use# 
         #layer_funcs.py                                #
         ################################################
-        step1 = relu_backward(dout, A)
-        step2 = affine_backward(step1, X, W, b)
-        dX = step2[0]
-        dW = step2[1]
-        db = step2[2]
 
 
         ################################################
@@ -138,8 +129,7 @@ class AffineLayer(FullyConnectedLayer):
         ######################################################
         #TODO: out = X*W + b. Use functions in layer_funcs.py#
         ######################################################
-        out = affine_forward(X, W, b)
-        self.X = X
+
         
         #####################################################
         #                   END OF YOUR CODE                #
@@ -167,9 +157,6 @@ class AffineLayer(FullyConnectedLayer):
         #TODO: derive the gradients wst to X, W, b. Use# 
         #layer_funcs.py                                #
         ################################################
-        #step1 = dout*(softmax())
-        dX, dW, db = affine_backward(dout, X, W, b)
-        
 
         
         ################################################

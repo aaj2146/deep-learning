@@ -12,7 +12,7 @@ def pca_naive(X, K):
          dimensionality reduction
 
     Returns a tuple of:
-    - P: (float) A numpy array of shape (K, N), representing the top K
+    - P: (float) A numpy array of shape (K, D), representing the top K
          principal components
     - T: (float) A numpy vector of length K, showing the score of each
          component vector
@@ -21,27 +21,8 @@ def pca_naive(X, K):
     ###############################################
     #TODO: Implement PCA by extracting eigenvector#
     ###############################################
-    mean_vector = np.mean(X, axis = 0)
-    N = X.shape[0]
-    D = X.shape[1]
-    cov = (np.matrix(X).T.dot(X))/(N-1)
-    eigen_val, eigen_vec = np.linalg.eig(cov)
-    
-    idx = eigen_val.argsort()[::-1]   
-    eigen_val = eigen_val[idx]
-    eigen_vec = eigen_vec[:,idx]
-    
-    T=eigen_val[0:K]
-    P_temp = eigen_vec[:,0:K]
-    
-    eigvectors = []
-    for i in range(K):
-        eigvectors.append(P_temp[:,i])
-        
-    P = np.matrix(P_temp).T
-    
-    
-    
+
+
     ###############################################
     #              End of your code               #
     ###############################################

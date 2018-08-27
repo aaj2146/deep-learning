@@ -47,20 +47,13 @@ class TwoLayerNet(object):
         ###################################################
         #TODO: Feedforward                                #
         ###################################################
-        layer1 = self.layer1
-        layer2 = self.layer2
-        step1 = layer1.feedforward(X)
-        step2 = layer2.feedforward(step1)
-        step2 = step2 - np.max(step2)
-        step3 = softmax_loss(step2, y)
-        loss = step3[0]
+
+        
         ###################################################
         #TODO: Backpropogation, here is just one dense    #
         #layer, it should be pretty easy                  #
         ###################################################
-        dX = step3[1]
-        affine_back = layer2.backward(dX)
-        dense_back = layer1.backward(affine_back)
+        
         
         ###################################################
         #              END OF YOUR CODE                   #
@@ -86,10 +79,6 @@ class TwoLayerNet(object):
         #TODO: Use SGD or SGD with momentum to update     #
         #variables in layer1 and layer2                   #
         ###################################################
-        for i in range(4):
-            params[i] = params[i] - learning_rate*grads[i]
-        
-        
 
         
         ###################################################
@@ -116,10 +105,7 @@ class TwoLayerNet(object):
         #######################################################
         #TODO: Remember to use functions in class SoftmaxLayer#
         #######################################################
-        step1 = layer1.feedforward(X)
-        step2 = layer2.feedforward(step1)
-        y_pred = np.argmax(step2, axis = 1)
-        predictions = y_pred
+
         
         #######################################################
         #                 END OF YOUR CODE                    #

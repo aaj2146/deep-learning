@@ -56,19 +56,14 @@ class BasicClassifier(object):
             # Hint: Use np.random.choice to generate indices. Sometimes, random     #
             # choice will be better than training in order.                         #
             #########################################################################
-            rand_idx = np.random.choice(num_train, batch_size, replace = True)
-            X_batch = X[rand_idx,:]
-            y_batch = y[rand_idx]
-            
-            loss, grad = self.loss(X_batch, y_batch, reg)
-            loss_history.append(loss)
+
             
             #########################################################################
             # TODO:                                                                 #
             # Update the weights using the gradient and the learning rate.          #
             #########################################################################
 
-            self.W += -1 * learning_rate * grad
+            
             #########################################################################
             #                       END OF YOUR CODE                                #
             #########################################################################
@@ -96,8 +91,6 @@ class BasicClassifier(object):
         # TODO:                                                                   #
         # Implement this method. Store the predicted labels in y_pred.            #
         ###########################################################################
-        
-        y_pred = np.argmax(X.dot(self.W), 0)
 
 
         ###########################################################################
